@@ -1,0 +1,2456 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=pxiEyp8kv8JHgFVrJJfedA&skey=87759fb096548f6d&v=v20) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLGT9Z1xlEw&skey=d4526a9b64c21b87&v=v20) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLCz7Z1xlEw&skey=cea76fe63715a67a&v=v20) format('woff');
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-505483104706626439 .-rotate-90,.gps-505483104706626439 .rotate-180,.gps-505483104706626439 .rotate-90,.gps-505483104706626439 .transform{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1}.gps-505483104706626439 .blur{--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: }.gps-505483104706626439 .relative{position:relative}.gps-505483104706626439 .mx-auto{margin-left:auto;margin-right:auto}.gps-505483104706626439 .mb-0{margin-bottom:0}.gps-505483104706626439 .flex{display:flex}.gps-505483104706626439 .inline-flex{display:inline-flex}.gps-505483104706626439 .grid{display:grid}.gps-505483104706626439 .hidden{display:none}.gps-505483104706626439 .min-h-0{min-height:0}.gps-505483104706626439 .w-full{width:100%}.gps-505483104706626439 .max-w-full{max-width:100%}.gps-505483104706626439 .flex-1{flex:1 1 0%}.gps-505483104706626439 .-rotate-90{--tw-rotate:-90deg}.gps-505483104706626439 .-rotate-90,.gps-505483104706626439 .rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-505483104706626439 .rotate-180{--tw-rotate:180deg}.gps-505483104706626439 .rotate-90{--tw-rotate:90deg}.gps-505483104706626439 .rotate-90,.gps-505483104706626439 .transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-505483104706626439 .cursor-pointer{cursor:pointer}.gps-505483104706626439 .flex-row{flex-direction:row}.gps-505483104706626439 .flex-col{flex-direction:column}.gps-505483104706626439 .items-center{align-items:center}.gps-505483104706626439 .justify-center{justify-content:center}.gps-505483104706626439 .gap-y-0{row-gap:0}.gps-505483104706626439 .overflow-hidden{overflow:hidden}.gps-505483104706626439 .overflow-clip{overflow:clip}.gps-505483104706626439 .rounded{border-radius:4px}.gps-505483104706626439 .border{border-width:1px}.gps-505483104706626439 .p-4{padding:16px}.gps-505483104706626439 .px-4{padding-left:16px;padding-right:16px}.gps-505483104706626439 .py-2{padding-bottom:8px;padding-top:8px}.gps-505483104706626439 .pb-0{padding-bottom:0}.gps-505483104706626439 .italic{font-style:italic}.gps-505483104706626439 .blur{--tw-blur:blur(8px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.gps-505483104706626439 .transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-505483104706626439 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-505483104706626439 .duration-200{transition-duration:.2s}.gps-505483104706626439 .duration-500{transition-duration:.5s}.gps-505483104706626439 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-505483104706626439 .\[\&\>svg\]\:\!h-\[var\(--height-iconCollapseSize\)\]>svg{height:var(--height-iconCollapseSize)!important}.gps-505483104706626439 .\[\&\>svg\]\:\!w-auto>svg{width:auto!important}.gps-505483104706626439 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-505483104706626439 .\[\&_p\]\:inline p{display:inline}.gps-505483104706626439 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-505483104706626439 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="g-fsZCfkq-"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:64px;--pl:15px;--pb:64px;--pr:15px;--pt-mobile:0px;--pl-mobile:15px;--pb-mobile:0px;--pr-mobile:15px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g-fsZCfkq- mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gFRDn5AXlG relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gf55U6jx3S"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-2xl);--pb:var(--g-s-2xl);--mb-mobile:0px;--pt-mobile:var(--g-s-2xl);--pb-mobile:0px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:1376px;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gf55U6jx3S mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gOmOa4ErXo relative flex flex-col"
+    >
+      
+    <gp-tab gp-data='{"setting":{"borderTab":{"active":{"border":"solid","borderWidth":"1","color":"#3B3B3B","isCustom":true,"position":"all","width":"1px 1px 1px 1px"},"hover":{"border":"solid","borderWidth":"1","color":"#3B3B3B","isCustom":true,"position":"all","width":"1px 1px 1px 1px"},"normal":{"border":"solid","borderWidth":"1","color":"#E1E4E7","isCustom":true,"position":"all","width":"1px 1px 1px 1px"}},"childItem":["<p>Detail</p>","<p>Shipping &amp; Return</p>","<p>FAQs</p>"],"labelAlign":{"desktop":"center"},"labelBgColor":{"active":"#3B3B3B","hover":"#3B3B3B","normal":"#EE6A77"},"labelColor":{"active":"#FFFFFF","hover":"#FFFFFF","normal":"#3B3B3B"},"labelTypoV2":{"attrs":{"transform":"none"},"custom":{"fontFamily":"Poppins","fontSize":{"desktop":"18px","mobile":"16px","tablet":"18px"},"fontStyle":"normal","fontVariants":["100","100italic","200","200italic","300","300italic","regular","italic","500","500italic","600","600italic","700","700italic","800","800italic","900","900italic"],"fontWeight":"500","letterSpacing":"normal","lineHeight":"150%"},"type":"paragraph-1"},"labelWidth":{"desktop":"200px"},"panelAlign":{"desktop":"center"},"panelFullWidth":{"desktop":false},"panelWidth":{"desktop":"610px"},"position":{"desktop":"top"}},"builderProps":{"uid":"gddsVHTQnn","builderData":{"advanced":{"border":{"border":"solid","borderType":"none","borderWidth":"0px","color":"#121212","isCustom":true,"width":"0px"},"boxShadow":{"angle":90,"blur":"4px","color":"rgba(18, 18, 18, 0.12)","distance":"2px","spread":"0px","type":"shadow-1"},"d":{"desktop":true,"mobile":false,"tablet":true},"hasBoxShadow":false,"op":{"desktop":"100%"},"rounded":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"spacing-setting":{"desktop":{"margin":{"bottom":"0px"},"padding":{"bottom":"var(--g-s-3xl)","left":"var(--g-s-2xl)","right":"var(--g-s-2xl)","top":"var(--g-s-2xl)"}},"mobile":{"margin":"","padding":""},"tablet":{"margin":"","padding":{"bottom":"var(--g-s-2xl)","left":"var(--g-s-2xl)","right":"var(--g-s-2xl)","top":"var(--g-s-2xl)"}}}},"childrens":["gq6cN10WbP","gGBN9NRkSj","glYDT-XPY-"],"label":"Tab","settings":{"borderTab":{"active":{"border":"solid","borderWidth":"1","color":"#3B3B3B","isCustom":true,"position":"all","width":"1px 1px 1px 1px"},"hover":{"border":"solid","borderWidth":"1","color":"#3B3B3B","isCustom":true,"position":"all","width":"1px 1px 1px 1px"},"normal":{"border":"solid","borderWidth":"1","color":"#E1E4E7","isCustom":true,"position":"all","width":"1px 1px 1px 1px"}},"childItem":["<p>Detail</p>","<p>Shipping &amp; Return</p>","<p>FAQs</p>"],"labelAlign":{"desktop":"center"},"labelBgColor":{"active":"#3B3B3B","hover":"#3B3B3B","normal":"#EE6A77"},"labelColor":{"active":"#FFFFFF","hover":"#FFFFFF","normal":"#3B3B3B"},"labelTypoV2":{"attrs":{"transform":"none"},"custom":{"fontFamily":"Poppins","fontSize":{"desktop":"18px","mobile":"16px","tablet":"18px"},"fontStyle":"normal","fontVariants":["100","100italic","200","200italic","300","300italic","regular","italic","500","500italic","600","600italic","700","700italic","800","800italic","900","900italic"],"fontWeight":"500","letterSpacing":"normal","lineHeight":"150%"},"type":"paragraph-1"},"labelWidth":{"desktop":"200px"},"panelAlign":{"desktop":"center"},"panelFullWidth":{"desktop":false},"panelWidth":{"desktop":"610px"},"position":{"desktop":"top"}},"styles":{},"tag":"Tabs","uid":"gddsVHTQnn","type":"component"}}}'>
+      <div
+        
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:none;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-2xl);--pl:var(--g-s-2xl);--pb:var(--g-s-3xl);--pr:var(--g-s-2xl);--pt-tablet:var(--g-s-2xl);--pl-tablet:var(--g-s-2xl);--pb-tablet:var(--g-s-2xl);--pr-tablet:var(--g-s-2xl)"
+        class="flex gddsVHTQnn"
+      >
+        <div
+          class="flex w-full  flex-col"
+        >
+          <div
+            class="flex"
+            style="--jc:center"
+          >
+            <ul
+              class="gp-tab-header-list flex  flex-row"
+              style="--minw:min-content;--minw-tablet:min-content;--minw-mobile:min-content;--w:610px"
+            >
+              
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="gddsVHTQnn"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:18px;--size-tablet:18px;--size-mobile:16px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Detail</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="gddsVHTQnn"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:18px;--size-tablet:18px;--size-mobile:16px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Shipping &amp; Return</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="gddsVHTQnn"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:18px;--size-tablet:18px;--size-mobile:16px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>FAQs</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+            </ul>
+          </div>
+          <div
+            class="flex flex-1"
+          >
+            <div
+              class="gp-tab-item-container p-4 pb-0"
+              key="gddsVHTQnn" 
+              style="--w:100%"
+            >
+            
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="giC5iuNfhh"
+        style="--b:solid;--bc:#E6E9EB;--bw:1px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mt:var(--g-s-2xl);--mb:var(--g-s-l);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:906px;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="giC5iuNfhh mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g2wWsDz3xl relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gSBon6DuFP"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gSBon6DuFP mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="glxqxWAyu7 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gVWGiKjDLt "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 1px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Package Dimension</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gQMwdHx8gf relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gzoUqW0pWl "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>3.74 x 3.5 x 1.1 Inches</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gnbqJ68ZOy"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gnbqJ68ZOy mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gxpDqtbzR3 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gOrE6y-sON "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 1px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Material</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gYAnQkfSAH relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gBq_yxF-kl "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Silicone</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gPuLkq5gZK"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gPuLkq5gZK mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gB763w5inl relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g0zTcTeqeH "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 1px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Shelf-life</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g5DbboW14b relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gF8WaNaJpX "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>10 Years</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="g7yxyqGmHz"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g7yxyqGmHz mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gNo3fkc-kQ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gpDk9c5t8G "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 1px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Net Weight</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gb0D49So5K "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 1px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Package Weight</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g310ucB-ZJ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gx_OYbxC-N "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>80 Grams</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gr3oXwclAy "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>120 Grams</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+  </div>
+  
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="gkY2WDzJk0"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mt:var(--g-s-2xl);--pb:var(--g-s-l);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:906px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gkY2WDzJk0 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="glQbJWBYER relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g5CUemafcR "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;word-break:break-word;overflow:hidden"
+        >
+        <p>Free Shipping:</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gweaz0FiBf "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:justify;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;word-break:break-word;overflow:hidden"
+        >
+        <p>Familidoo is offering free shipping within the USA. Please refer to our Shipping Policy or contact us via email at info@familidooglobal.com for more information.</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gPGAUDAeiR "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;word-break:break-word;overflow:hidden"
+        >
+        <p>Return:</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gAhsxaN2kD "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:justify;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;word-break:break-word;overflow:hidden"
+        >
+        <p>Familidoo's 30-day return policy ensures a full refund for items in new condition. Please avoid using products and read our Refund policy or email us at info@familidooglobal.com for support.<br>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+  </div>
+  
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="g02dW-3KFM"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mt:var(--g-s-2xl);--pb:var(--g-s-l);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:906px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g02dW-3KFM mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g8hwyn_kk- relative flex flex-col"
+    >
+      <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)" class="giPtrEjN_b ">
+      
+    <gp-accordion
+     uid="giPtrEjN_b"
+      class="flex w-full flex-col "
+      style="--gg:undefinedpx"
+      gp-data='{"setting":{"iconSvg":"<svg width=\"17\" height=\"16\" viewBox=\"0 0 17 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                  <path d=\"M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z\" fill=\"currentColor\"/>\n                  </svg>","isIconPlus":false,"activeKey":1,"expanded":false,"expandItem":true,"iconPosition":"right","iconGlobalSize":{"desktop":{"gap":"16px","height":"16px","width":"16px"}},"layoutHeader":"text-only","expandedMode":"single","configIconSize":16,"parentUid":"giPtrEjN_b","childListNumber":["0"],"chidlrenUid":["gWaS0miD77","gksc0zxdmL","grQ0WStcJU"]},"styles":{"color":{"normal":"#3B3B3B"},"headerBorder":{"normal":{"border":"solid","borderType":"style-1","borderWidth":"0","color":"#E6E9EB","isCustom":true,"position":"bottom","width":"0px 0px 0px 0px"}},"fullWidth":{"desktop":true},"width":{"desktop":"1170px"},"itemHeaderSpacing":{"custom":{"desktop":{"horizontal":"0px","vertical":"16px"}}},"textColor":{"normal":"#3B3B3B"},"iconColor":{"active":"#121212","hover":"#121212","normal":"#121212"},"contentSizePadding":{"desktop":{"gap":"undefinedpx","padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}},"mobile":{"padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}},"tablet":{"padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}}},"headerContentPadding":{"desktop":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}},"mobile":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}},"tablet":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}}},"widthHeightSize":{"desktop":{"width":"100%"},"mobile":{"width":"100%"},"tablet":{"width":"100%"}}},"uid":"giPtrEjN_b"}'
+    >
+    <div class="hidden rotate-90 -rotate-90 rotate-180"></div>
+    <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="0"
+      class="giPtrEjN_b gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gWaS0miD77"
+        id="gWaS0miD77"
+        data-index="0"
+        class="giPtrEjN_b gp-accordion-item-giPtrEjN_b-0 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB;--c:#3B3B3B"
+      >
+       <style class="accordion-style">.gp-accordion-item-giPtrEjN_b-0:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="0"
+            class="giPtrEjN_b gp-accordion-item_icon gp-collapsible-icon -rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>1. What is Therapy Dough?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gWaS0miD77"
+        data-index="0"
+        class="giPtrEjN_b gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:1fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gWaS0miD77"
+        data-index="0"
+        class="giPtrEjN_b gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pt:0px;--pb:0px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:0px;--pb-tablet:0px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:0px;--pb-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gsNUElTYaW relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gDTbQRgRqH "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:16px;">Therapy Dough is a silicone-based product crafted from premium materials and infused with unique scents to provide a complete stress relief solution.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="1"
+      class="giPtrEjN_b gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gksc0zxdmL"
+        id="gksc0zxdmL"
+        data-index="1"
+        class="giPtrEjN_b gp-accordion-item-giPtrEjN_b-1 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-giPtrEjN_b-1:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="1"
+            class="giPtrEjN_b gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>2. How does Therapy Dough work?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gksc0zxdmL"
+        data-index="1"
+        class="giPtrEjN_b gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gksc0zxdmL"
+        data-index="1"
+        class="giPtrEjN_b gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gXUDAwd1II relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gYupZJqqzX "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:16px;">Release stress and tension by kneading and squeezing the dough. The aroma of each dough variant enhances your sensory experience, leaving you feeling rejuvenated.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="2"
+      class="giPtrEjN_b gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="grQ0WStcJU"
+        id="grQ0WStcJU"
+        data-index="2"
+        class="giPtrEjN_b gp-accordion-item-giPtrEjN_b-2 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-giPtrEjN_b-2:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="2"
+            class="giPtrEjN_b gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>3. Is Therapy Dough suitable for all ages?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="grQ0WStcJU"
+        data-index="2"
+        class="giPtrEjN_b gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="grQ0WStcJU"
+        data-index="2"
+        class="giPtrEjN_b gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="g2rbcWOxVL relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gYH-WXsVnl "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:justify;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#4f4f4f;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:16px;">Therapy Dough is suitable for individuals aged 13 and above. It's a versatile tool for stress relief and hand strengthening exercises, perfect for both children and adults.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            
+    </gp-accordion>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-accordion.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+      </div>
+    </div>
+    </div>
+  
+    
+  </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </gp-tab>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-tab.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:none;--d-mobile:block;--d-tablet:none;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-2xl);--pl:var(--g-s-2xl);--pb:var(--g-s-2xl);--pr:var(--g-s-2xl);--pt-mobile:0px;--pl-mobile:var(--g-s-2xl);--pb-mobile:var(--g-s-2xl);--pr-mobile:var(--g-s-2xl)" class="gD_-wpmmEC ">
+      
+    <gp-accordion
+     uid="gD_-wpmmEC"
+      class="flex w-full flex-col "
+      style="--gg:8px"
+      gp-data='{"setting":{"iconSvg":"plus","isIconPlus":true,"activeKey":1,"expanded":false,"expandItem":true,"iconPosition":"right","iconGlobalSize":{"desktop":{"gap":"16px","height":"16px","width":"16px"}},"layoutHeader":"text-only","expandedMode":"single","configIconSize":16,"parentUid":"gD_-wpmmEC","childListNumber":["0"],"chidlrenUid":["gbJsAa8eO6","grBhVWSbCK","gvvB0WSIkO"]},"styles":{"bgColor":{"normal":"#FFFFFF"},"color":{"normal":"#3B3B3B"},"headerBorder":{"normal":{"border":"solid","borderType":"style-1","borderWidth":"1","color":"#E1E4E7","isCustom":true,"position":"all","width":"1px 1px 1px 1px"}},"fullWidth":{"desktop":true},"width":{"desktop":"1170px"},"itemHeaderSpacing":{"custom":{"desktop":{"horizontal":"16px","vertical":"10px"}}},"textColor":{"normal":"#3B3B3B"},"iconColor":{"active":"#121212","hover":"#121212","normal":"#121212"},"contentSizePadding":{"desktop":{"gap":"8px","padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}},"mobile":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}},"tablet":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}}},"headerContentPadding":{"desktop":{"padding":{"bottom":"10px","left":"16px","right":"16px","top":"10px","type":"custom"}},"mobile":{"padding":{"bottom":"10px","left":"16px","right":"16px","top":"10px","type":"custom"}},"tablet":{"padding":{"bottom":"10px","left":"16px","right":"16px","top":"10px","type":"custom"}}},"widthHeightSize":{"desktop":{"width":"100%"},"mobile":{"width":"100%"},"tablet":{"width":"100%"}}},"uid":"gD_-wpmmEC"}'
+    >
+    <div class="hidden rotate-90 -rotate-90 rotate-180"></div>
+    <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E1E4E7">
+    <div
+      data-index="0"
+      class="gD_-wpmmEC gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gbJsAa8eO6"
+        id="gbJsAa8eO6"
+        data-index="0"
+        class="gD_-wpmmEC gp-accordion-item-gD_-wpmmEC-0 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:16px;--pr:16px;--pt:10px;--pb:10px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:10px;--pb-tablet:10px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:10px;--pb-mobile:10px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:#FFFFFF;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E1E4E7;--c:#3B3B3B"
+      >
+       <style class="accordion-style">.gp-accordion-item-gD_-wpmmEC-0:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="0"
+            class="gD_-wpmmEC gp-accordion-item_icon gp-collapsible-icon inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width='16' height='16' fill='currentColor' viewBox="0 0 448 512"><path fill='currentColor' d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:16px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        Details
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gbJsAa8eO6"
+        data-index="0"
+        class="gD_-wpmmEC gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:1fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gbJsAa8eO6"
+        data-index="0"
+        class="gD_-wpmmEC gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="ggj2Q8v4rL relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gw6u051vHx"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:906px;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gw6u051vHx mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="ghAtFn9ZWM relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gDEoy06kht"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gDEoy06kht mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gkviVIE5kS relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gODNGKTfft "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>Brand</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gtiSj9h2hf relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gvse4ddF1a "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(107,110,116);font-size:16px;">Familidoo</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gwZA7Zvgmy"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gwZA7Zvgmy mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g50RQmDRdW relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gTI-WWF3e1 "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:12px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(59,59,59);font-size:16px;">Product package dimentions</span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g3eep16R2Z relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g6C_K1VdBW "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(107,110,116);font-size:16px;">3.74 x 3.5 x 1.1 inches</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gH-rEfObaZ"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gH-rEfObaZ mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g-Peaecorn relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g5j2SqrKaD "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(59,59,59);font-size:16px;">Material</span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gCiU41j0QZ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gTwYYWL1Wd "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(107,110,116);font-size:16px;">Silicone</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gs_2mllR8b"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gs_2mllR8b mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gHrm1w-Nax relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gEm23ikpvF "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(59,59,59);font-size:16px;">Style</span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gmAbrFLS0M relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g1DSPlgcxp "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(107,110,116);font-size:16px;">Wrap</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gaf6g3INnZ"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gaf6g3INnZ mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g8lM-NoeCy relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gnvwX5cUsa "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(59,59,59);font-size:16px;">Self-life</span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g4emjd3CDB relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gvs10wU5L9 "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(107,110,116);font-size:16px;">10 years</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gWFzpQZ-jy"
+        style="--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:0px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gWFzpQZ-jy mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gnBnX8NSCI relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gubn-B1nN_ "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(59,59,59);font-size:16px;">Net weight</span></p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g20PuDkTIi "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(59,59,59);font-size:16px;">Package weight</span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="ge1hAEM4J2 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gX13wWbCNG "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(107,110,116);font-size:16px;">80 gram</span></p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gINtN_t0t0 "
+        style="--ta:left;--b:solid;--bc:#E6E9EB;--bw:0px 0px 0px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-m);--pl:var(--g-s-2xl);--pb:var(--g-s-m);--pr:var(--g-s-m)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:0.3px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(107,110,116);font-size:16px;">120 gram</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E1E4E7">
+    <div
+      data-index="1"
+      class="gD_-wpmmEC gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="grBhVWSbCK"
+        id="grBhVWSbCK"
+        data-index="1"
+        class="gD_-wpmmEC gp-accordion-item-gD_-wpmmEC-1 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:16px;--pr:16px;--pt:10px;--pb:10px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:10px;--pb-tablet:10px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:10px;--pb-mobile:10px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:#FFFFFF;--c:#3B3B3B;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E1E4E7"
+      >
+       <style class="accordion-style">.gp-accordion-item-gD_-wpmmEC-1:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="1"
+            class="gD_-wpmmEC gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:16px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        Shipping & return
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="grBhVWSbCK"
+        data-index="1"
+        class="gD_-wpmmEC gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="grBhVWSbCK"
+        data-index="1"
+        class="gD_-wpmmEC gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gKOjXbtT4A relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gd-vX3WwAI"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pb:var(--g-s-s);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:906px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gd-vX3WwAI mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g1ACChG5tC relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gX4CWV4Djm "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;word-break:break-word;overflow:hidden"
+        >
+        <p>Free Shipping:</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g9FpyN4pe7 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;word-break:break-word;overflow:hidden"
+        >
+        <p>Familidoo offers Freeship in USA, please read Shipping policy or contact us via email for more support: info@familidooglobal.com.&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gfI0njtSdQ "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#3B3B3B;word-break:break-word;overflow:hidden"
+        >
+        <p>Return:</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g8M4qDtbfQ "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;word-break:break-word;overflow:hidden"
+        >
+        <p>Familidoo offers a 30-day return and secured payment. Please be mindful of keeping items in new condition and avoid using product to ensure a full refund. Please read Refund policy&nbsp;or contact us via email for more support: info@familidooglobal.com.&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E1E4E7">
+    <div
+      data-index="2"
+      class="gD_-wpmmEC gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gvvB0WSIkO"
+        id="gvvB0WSIkO"
+        data-index="2"
+        class="gD_-wpmmEC gp-accordion-item-gD_-wpmmEC-2 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:16px;--pr:16px;--pt:10px;--pb:10px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:10px;--pb-tablet:10px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:10px;--pb-mobile:10px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:#FFFFFF;--c:#3B3B3B;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E1E4E7"
+      >
+       <style class="accordion-style">.gp-accordion-item-gD_-wpmmEC-2:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="2"
+            class="gD_-wpmmEC gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:16px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        FAQs
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gvvB0WSIkO"
+        data-index="2"
+        class="gD_-wpmmEC gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gvvB0WSIkO"
+        data-index="2"
+        class="gD_-wpmmEC gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gp621uKItB relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gncqtsERWh"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:906px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gncqtsERWh mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gwTu7pC6PG relative flex flex-col"
+    >
+      <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt-mobile:-16px" class="g-Lit-zL58 ">
+      
+    <gp-accordion
+     uid="g-Lit-zL58"
+      class="flex w-full flex-col "
+      style="--gg:undefinedpx"
+      gp-data='{"setting":{"iconSvg":"<svg width=\"17\" height=\"16\" viewBox=\"0 0 17 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                  <path d=\"M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z\" fill=\"currentColor\"/>\n                  </svg>","isIconPlus":false,"activeKey":1,"expanded":false,"expandItem":true,"iconPosition":"right","iconGlobalSize":{"desktop":{"gap":"16px","height":"16px","width":"16px"}},"layoutHeader":"text-only","expandedMode":"single","configIconSize":16,"parentUid":"g-Lit-zL58","childListNumber":["0"],"chidlrenUid":["gRguAKmSl7","gcVsws5dl2","g5VRsLEDeD","gIQWQ4aV33","g1f2Zr0qfs","gf8yTQLdYo","gIemb1QxJt","gzkJFfSn6x"]},"styles":{"color":{"normal":"#3B3B3B"},"headerBorder":{"normal":{"border":"solid","borderType":"style-1","borderWidth":"0","color":"#E6E9EB","isCustom":true,"position":"bottom","width":"0px 0px 0px 0px"}},"fullWidth":{"desktop":true},"width":{"desktop":"1170px"},"itemHeaderSpacing":{"custom":{"desktop":{"horizontal":"0px","vertical":"16px"}}},"textColor":{"normal":"#3B3B3B"},"iconColor":{"active":"#121212","hover":"#121212","normal":"#121212"},"contentSizePadding":{"desktop":{"gap":"undefinedpx","padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}},"mobile":{"padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}},"tablet":{"padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}}},"headerContentPadding":{"desktop":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}},"mobile":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}},"tablet":{"padding":{"bottom":"16px","left":"0px","right":"0px","top":"16px","type":"custom"}}},"widthHeightSize":{"desktop":{"width":"100%"},"mobile":{"width":"100%"},"tablet":{"width":"100%"}}},"uid":"g-Lit-zL58"}'
+    >
+    <div class="hidden rotate-90 -rotate-90 rotate-180"></div>
+    <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="0"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gRguAKmSl7"
+        id="gRguAKmSl7"
+        data-index="0"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-0 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB;--c:#3B3B3B"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-0:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="0"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon -rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>1. What is Therapy Dough?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gRguAKmSl7"
+        data-index="0"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:1fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gRguAKmSl7"
+        data-index="0"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pt:0px;--pb:0px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:0px;--pb-tablet:0px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:0px;--pb-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="ggDykiZ1lA relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gXd-4m2xBh "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:11px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:14px;">Therapy Dough is a specially formulated silicone designed to provide a complete stress relief solution. It's crafted with premium materials and infused with unique scents to enhance your relaxation experience</span><span style="font-size:14px;">.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="1"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gcVsws5dl2"
+        id="gcVsws5dl2"
+        data-index="1"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-1 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-1:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="1"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>2. How does Therapy Dough work?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gcVsws5dl2"
+        data-index="1"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gcVsws5dl2"
+        data-index="1"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gI0ew86J_d relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gPVb1f5AVW "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:14px;">Simply knead and squeeze the dough to release stress and tension. The soothing aroma of each dough variant adds an extra dimension to your sensory experience, helping you feel refreshed and rejuvenated.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="2"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="g5VRsLEDeD"
+        id="g5VRsLEDeD"
+        data-index="2"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-2 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-2:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="2"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>3. Is Therapy Dough suitable for all ages?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="g5VRsLEDeD"
+        data-index="2"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="g5VRsLEDeD"
+        data-index="2"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="g2TJ48kQaN relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g5LaBRsZef "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:14px;">Therapy Dough is suitable for individuals aged 13 and above. It's a versatile tool for stress relief and hand strengthening exercises, perfect for both children and adults.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="3"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gIQWQ4aV33"
+        id="gIQWQ4aV33"
+        data-index="3"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-3 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-3:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="3"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>4. How does Therapy Dough help with hand exercises?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gIQWQ4aV33"
+        data-index="3"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gIQWQ4aV33"
+        data-index="3"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="g974KDIiX2 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gh-nwXVIEg "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(18,18,18);font-size:14px;">Our comprehensive set of 7 scent therapy doughs provides varying levels of resistance, making them suitable for beginners to advanced users. Regular use of Therapy Dough can help improve hand dexterity and strengthen muscles.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="4"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="g1f2Zr0qfs"
+        id="g1f2Zr0qfs"
+        data-index="4"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-4 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-4:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="4"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>5. Is Therapy Dough safe to use?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="g1f2Zr0qfs"
+        data-index="4"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="g1f2Zr0qfs"
+        data-index="4"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gvxDQ8EYrN relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g9zoKOM_60 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:14px;">Absolutely! We prioritize safety and quality assurance. Our therapy dough is non-toxic and gentle on the skin, ensuring a worry-free experience for users 13+ years old.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="5"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gf8yTQLdYo"
+        id="gf8yTQLdYo"
+        data-index="5"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-5 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-5:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="5"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>6. Can I take Therapy Dough with me on-the-go?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gf8yTQLdYo"
+        data-index="5"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gf8yTQLdYo"
+        data-index="5"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gUUTSNml9a relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gJlcTyvjRB "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:14px;">Yes, our therapy dough is designed to be portable and convenient. Its compact and lightweight design makes it easy to carry in your bag or pocket, so you can enjoy relaxation wherever you are.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="6"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gIemb1QxJt"
+        id="gIemb1QxJt"
+        data-index="6"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-6 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-6:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="6"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>7. Are the scents in Therapy Dough overpowering?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gIemb1QxJt"
+        data-index="6"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gIemb1QxJt"
+        data-index="6"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gtekm__Abf relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g1mfZ4KFqe "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:14px;">Not at all! We've carefully curated the scents to provide a pleasant and invigorating sensory experience. Each color boasts its own unique scent, ranging from soothing lavender to refreshing citrus, enhancing your relaxation sessions without overwhelming your senses.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:left"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:solid;--bw:0px 0px 1px 0px;--bc:#E6E9EB">
+    <div
+      data-index="7"
+      class="g-Lit-zL58 gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gzkJFfSn6x"
+        id="gzkJFfSn6x"
+        data-index="7"
+        class="g-Lit-zL58 gp-accordion-item-g-Lit-zL58-7 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:0px;--pr:0px;--pt:16px;--pb:16px;--pl-tablet:0px;--pr-tablet:0px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:0px;--pr-mobile:0px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--c:#3B3B3B;--bs:solid;--bw:0px 0px 0px 0px;--bc:#E6E9EB"
+      >
+       <style class="accordion-style">.gp-accordion-item-g-Lit-zL58-7:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#3B3B3B;width:16px;height:16px"
+            data-index="7"
+            class="g-Lit-zL58 gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:500;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>8. How long does the scent last in Therapy Dough?</strong></p>
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gzkJFfSn6x"
+        data-index="7"
+        class="g-Lit-zL58 gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gzkJFfSn6x"
+        data-index="7"
+        class="g-Lit-zL58 gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gSW_5e8JFD relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gNTg0EHhsP "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:-8px;--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Poppins, 'Poppins');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#6B6E74;--tt:none;word-break:break-word;overflow:hidden"
+        >
+        <p>&nbsp;</p><p><span style="background-color:rgb(255,255,255);color:rgb(13,13,13);font-size:14px;">The scent in Therapy Dough is long-lasting, providing you with hours of sensory delight. However, if you prefer a stronger scent, simply knead the dough to release more aroma.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            
+    </gp-accordion>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-accordion.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+      </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            
+    </gp-accordion>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-accordion.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+      </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 4",
+    "tag": "section",
+    "class": "gps-505483104706626439 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/familidoo/apps/bold/app/shopify/edit?pageType=GP_PRODUCT&editorId=505483104538854279&sectionId=505483104706626439)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}

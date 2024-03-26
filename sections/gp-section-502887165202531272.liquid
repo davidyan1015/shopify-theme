@@ -1,0 +1,401 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'Comic Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=4UaErEJDsxBrF37olUeD_xHM8pxUKA&skey=3d9cfbb321b64fc5&v=v8) format('woff');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW3w&skey=cd068b3e1b767e51&v=v14) format('woff');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZtRSW3w&skey=cd068b3e1b767e51&v=v14) format('woff');
+}
+/* latin */
+@font-face {
+  font-family: 'Comic Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comicneue/v8/4UaErEJDsxBrF37olUeD_xHM8pxULilENlY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-502887165202531272 .pointer-events-auto{pointer-events:auto}.gps-502887165202531272 .relative{position:relative}.gps-502887165202531272 .mx-auto{margin-left:auto;margin-right:auto}.gps-502887165202531272 .mb-0{margin-bottom:0}.gps-502887165202531272 .\!inline{display:inline!important}.gps-502887165202531272 .flex{display:flex}.gps-502887165202531272 .grid{display:grid}.gps-502887165202531272 .h-full{height:100%}.gps-502887165202531272 .w-full{width:100%}.gps-502887165202531272 .max-w-full{max-width:100%}.gps-502887165202531272 .flex-col{flex-direction:column}.gps-502887165202531272 .gap-y-0{row-gap:0}.gps-502887165202531272 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-502887165202531272 .duration-200{transition-duration:.2s}.gps-502887165202531272 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-502887165202531272 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-502887165202531272 .\[\&_p\]\:inline p{display:inline}.gps-502887165202531272 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-502887165202531272 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="gCfX7oPEzJ"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:72px;--pl:15px;--pb:72px;--pr:15px;--pt-mobile:63px;--pl-mobile:15px;--pb-mobile:0px;--pr-mobile:15px;--pt-tablet:63px;--pl-tablet:15px;--pb-tablet:63px;--pr-tablet:15px;--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gCfX7oPEzJ mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gf_dUMjL2b relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g_WxH2bPnu"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-3xl);--mb-mobile:16px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g_WxH2bPnu mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g2ZwnIHowD relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g_GedIPbYE "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--mb-mobile:22px"
+      >
+      <div class="flex" style="--jc:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#EE6A77;--fs:normal;--ff:var(--g-font-Comic-Neue, 'Comic Neue');--weight:700;--ls:normal;--lh:120%;--size:45px;--size-tablet:51px;--size-mobile:44px;word-break:break-word;overflow:hidden"
+        >
+        <p>What Sets Us Apart?</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gi6YwCjOkE "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--mb-tablet:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:70%;--w-tablet:70%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:21px;--size-tablet:21px;--size-mobile:16px;word-break:break-word;overflow:hidden"
+        >
+        <p>We offer top-quality daycare worldwide,&nbsp;</p><p>with durable materials and excellent after-sales service.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gXATwEAnnZ"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 4fr) minmax(0, 4fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gXATwEAnnZ mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gmi-IVZfHk relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g2I6Hib3d1"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mt:0px;--mb:var(--g-s-5xl);--pt:0px;--pb:0px;--mt-mobile:0px;--mb-mobile:var(--g-s-xl);--pb-mobile:var(undefined);--mt-tablet:52px;--mb-tablet:var(--g-s-4xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g2I6Hib3d1 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g4SMTREgVY relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gULboErVrM "
+        style="--tt:default;--ta:right;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:right;--jc-mobile:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:right;--ta-mobile:center;--c:#EE6A77;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:130%;--size:25px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>International Safety Standard Certificate</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gOfNVccrkb "
+        style="--tt:default;--ta:right;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--ml-mobile:5px;--mb-mobile:0px;--mr-mobile:5px"
+      >
+      <div class="flex" style="--jc:right;--jc-mobile:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:right;--ta-mobile:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#121212;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:16px;word-break:break-word;overflow:hidden"
+        >
+        <p>Our strollers are certified to meet American&nbsp;</p><p>and European standards, ensuring quality&nbsp;</p><p>for family and business use.<br>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="glUhDGRkTw"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--mb-mobile:var(--g-s-xl);--pb-mobile:var(undefined);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="glUhDGRkTw mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g18CjUcR6Q relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g50feq7OLN "
+        style="--tt:default;--ta:right;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:right;--jc-mobile:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:right;--ta-mobile:center;--c:#EE6A77;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:130%;--size:25px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>Effortless Stroll</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gmXyDDDORK "
+        style="--tt:default;--ta:right;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--ml-mobile:5px;--mb-mobile:0px;--mr-mobile:5px"
+      >
+      <div class="flex" style="--jc:right;--jc-mobile:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:right;--ta-mobile:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:16px;word-break:break-word;overflow:hidden"
+        >
+        <p>All-terrain wheels equipped with&nbsp;</p><p>shock-absorbing structures and&nbsp;</p><p>a one-step brake system.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gTOfurUjyM relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image g6zTR-Hziq"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--mb-mobile:0px;--mb-tablet:10px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:center"
+      >
+        <img
+    quality="70" title="Familidoo 4 Seat Stroller Review"
+    draggable="false"
+    class="!inline h-full max-w-full flex"
+    data-src="{{ "499742552031757542-a9281b34-d21d-489e-8f4b-95ec2387421d.jpg" | file_url }}" data-srcset="{{ '499742552031757542-a9281b34-d21d-489e-8f4b-95ec2387421d.jpg' | file_img_url: '768x768' }} 768w, {{ '499742552031757542-a9281b34-d21d-489e-8f4b-95ec2387421d.jpg' | file_img_url: '1024x1024' }} 1024w, {{ '499742552031757542-a9281b34-d21d-489e-8f4b-95ec2387421d.jpg' | file_img_url: 'master' }} 1440w" src="{{ "499742552031757542-a9281b34-d21d-489e-8f4b-95ec2387421d.jpg" | file_url }}" width="1080" height="1350" alt="Familidoo 4 Seat Stroller for Daycare and Quadruplet" priority="true" base-src
+    sizes="100vw"
+    style="--aspect:1080/1350;--aspect-tablet:1080/1350;--aspect-mobile:1080/1350;--objf:cover;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gVZgfYq_eX relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gOF4zDp2V8"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mt:52px;--mb:var(--g-s-5xl);--pt:0px;--pb:0px;--mt-mobile:var(--g-s-2xl);--mb-mobile:var(--g-s-xl);--pb-mobile:var(undefined);--mt-tablet:52px;--mb-tablet:var(--g-s-4xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gOF4zDp2V8 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gNM-UICTcz relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gz5fLXIarn "
+        style="--tt:default;--ta:left;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left;--jc-mobile:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:center;--c:#EE6A77;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:130%;--size:25px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>Breathable Fabric</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g8Q-p2oNHo "
+        style="--tt:default;--ta:left;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--ml-mobile:5px;--mb-mobile:0px;--mr-mobile:5px"
+      >
+      <div class="flex" style="--jc:left;--jc-mobile:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:16px;word-break:break-word;overflow:hidden"
+        >
+        <p>Our fabric technology offers UV and wind protection, is lightweight, and easy to clean.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="g2tEc0FdIP"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pb:var(undefined);--pb-mobile:var(undefined);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g2tEc0FdIP mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gr16x9IK99 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gaBalX8mZi "
+        style="--tt:default;--ta:left;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left;--jc-mobile:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:center;--c:#EE6A77;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:130%;--size:25px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>Optimal Design</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g7OKUysjJf "
+        style="--tt:default;--ta:left;--ta-mobile:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--ml-mobile:5px;--mb-mobile:16px;--mr-mobile:5px"
+      >
+      <div class="flex" style="--jc:left;--jc-mobile:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:16px;word-break:break-word;overflow:hidden"
+        >
+        <p>Our stroller folds to fit in your family car,&nbsp;</p><p>has pockets for your essentials, and easily passes through standard doorways (2.62ft).</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 2",
+    "tag": "section",
+    "class": "gps-502887165202531272 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/familidoo/apps/bold/app/shopify/edit?pageType=GP_INDEX&editorId=502887154884543432&sectionId=502887165202531272)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}

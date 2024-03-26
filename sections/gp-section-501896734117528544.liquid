@@ -1,0 +1,973 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW3w&skey=cd068b3e1b767e51&v=v14) format('woff');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZtRSW3w&skey=cd068b3e1b767e51&v=v14) format('woff');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-501896734117528544 .transform{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1}.gps-501896734117528544 .blur{--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: }.gps-501896734117528544 .pointer-events-auto{pointer-events:auto}.gps-501896734117528544 .relative{position:relative}.gps-501896734117528544 .mx-auto{margin-left:auto;margin-right:auto}.gps-501896734117528544 .mb-0{margin-bottom:0}.gps-501896734117528544 .\!inline{display:inline!important}.gps-501896734117528544 .flex{display:flex}.gps-501896734117528544 .grid{display:grid}.gps-501896734117528544 .h-full{height:100%}.gps-501896734117528544 .w-full{width:100%}.gps-501896734117528544 .max-w-full{max-width:100%}.gps-501896734117528544 .flex-1{flex:1 1 0%}.gps-501896734117528544 .transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-501896734117528544 .cursor-pointer{cursor:pointer}.gps-501896734117528544 .flex-row{flex-direction:row}.gps-501896734117528544 .flex-col{flex-direction:column}.gps-501896734117528544 .gap-y-0{row-gap:0}.gps-501896734117528544 .overflow-hidden{overflow:hidden}.gps-501896734117528544 .rounded{border-radius:4px}.gps-501896734117528544 .border{border-width:1px}.gps-501896734117528544 .p-4{padding:16px}.gps-501896734117528544 .px-4{padding-left:16px;padding-right:16px}.gps-501896734117528544 .py-2{padding-bottom:8px;padding-top:8px}.gps-501896734117528544 .pb-0{padding-bottom:0}.gps-501896734117528544 .capitalize{text-transform:capitalize}.gps-501896734117528544 .italic{font-style:italic}.gps-501896734117528544 .blur{--tw-blur:blur(8px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.gps-501896734117528544 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-501896734117528544 .duration-200{transition-duration:.2s}.gps-501896734117528544 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-501896734117528544 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-501896734117528544 .\[\&_p\]\:inline p{display:inline}.gps-501896734117528544 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-501896734117528544 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="g1nFXi0XoI"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:72px;--pl:15px;--pb:72px;--pr:15px;--pt-mobile:3px;--pl-mobile:15px;--pb-mobile:63px;--pr-mobile:15px;--pt-tablet:63px;--pl-tablet:15px;--pb-tablet:63px;--pr-tablet:15px;--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g1nFXi0XoI mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="ggTHVNWFkc relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gpLskGMOS8"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:0px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gpLskGMOS8 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gJRCGyX3Dg relative flex flex-col"
+    >
+      
+    <gp-tab gp-data='{"setting":{"borderTab":{"active":{"border":"solid","borderWidth":"2px","color":"#121212","isCustom":true,"position":"bottom","width":"0px 0px 2px 0px"},"normal":{"border":"solid","borderWidth":"1","color":"#E0E0E0","isCustom":true,"position":"all","width":"1px 1px 1px 1px"}},"childItem":["<p>specification</p>","<p>dimension</p>"],"labelAlign":{"desktop":"center"},"labelBgColor":{"active":"#242424","hover":"#242424","normal":"#EE6A77"},"labelColor":{"active":"#FFFFFF","hover":"#FFFFFF","normal":"#121212"},"labelTypoV2":{"attrs":{"transform":"capitalize"},"custom":{"fontFamily":"DM Sans","fontSize":{"desktop":"16px","mobile":"14px","tablet":"16px"},"fontStyle":"normal","fontVariants":["regular","italic","500","500italic","700","700italic"],"fontWeight":"700","letterSpacing":"normal","lineHeight":"150%"},"type":"paragraph-1"},"labelWidth":{"desktop":"200px"},"panelAlign":{"desktop":"left"},"panelFullWidth":{"desktop":true,"mobile":true,"tablet":true},"panelWidth":{"desktop":"200px"},"position":{"desktop":"top"}},"builderProps":{"uid":"gW09orMPJm","builderData":{"advanced":{"border":{"border":"solid","borderType":"none","borderWidth":"1","color":"#E0E0E0","isCustom":true,"width":"1px 1px 1px 1px"},"boxShadow":{"angle":90,"blur":"4px","color":"rgba(18, 18, 18, 0.12)","distance":"2px","spread":"0px","type":"shadow-1"},"d":{"desktop":true,"mobile":true,"tablet":true},"hasBoxShadow":false,"op":{"desktop":"100%"},"rounded":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"custom"},"spacing-setting":{"desktop":{"margin":{"bottom":"var(undefined)"},"padding":""},"mobile":{"margin":{"bottom":"0px"},"padding":""},"tablet":{"margin":"","padding":""}}},"childrens":["gD_TSO82hI","gCK2zxzDYn"],"label":"Tab","settings":{"borderTab":{"active":{"border":"solid","borderWidth":"2px","color":"#121212","isCustom":true,"position":"bottom","width":"0px 0px 2px 0px"},"normal":{"border":"solid","borderWidth":"1","color":"#E0E0E0","isCustom":true,"position":"all","width":"1px 1px 1px 1px"}},"childItem":["<p>specification</p>","<p>dimension</p>"],"labelAlign":{"desktop":"center"},"labelBgColor":{"active":"#242424","hover":"#242424","normal":"#EE6A77"},"labelColor":{"active":"#FFFFFF","hover":"#FFFFFF","normal":"#121212"},"labelTypoV2":{"attrs":{"transform":"capitalize"},"custom":{"fontFamily":"DM Sans","fontSize":{"desktop":"16px","mobile":"14px","tablet":"16px"},"fontStyle":"normal","fontVariants":["regular","italic","500","500italic","700","700italic"],"fontWeight":"700","letterSpacing":"normal","lineHeight":"150%"},"type":"paragraph-1"},"labelWidth":{"desktop":"200px"},"panelAlign":{"desktop":"left"},"panelFullWidth":{"desktop":true,"mobile":true,"tablet":true},"panelWidth":{"desktop":"200px"},"position":{"desktop":"top"}},"styles":{},"tag":"Tabs","uid":"gW09orMPJm","type":"component"}}}'>
+      <div
+        
+        style="--b:solid;--bc:#E0E0E0;--bw:1px 1px 1px 1px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(undefined);--mb-mobile:0px"
+        class="flex gW09orMPJm"
+      >
+        <div
+          class="flex w-full  flex-col"
+        >
+          <div
+            class="flex"
+            style="--jc:left"
+          >
+            <ul
+              class="gp-tab-header-list flex  flex-row"
+              style="--minw:100%;--minw-tablet:100%;--minw-mobile:100%;--w:200px"
+            >
+              
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="gW09orMPJm"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>specification</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="gW09orMPJm"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>dimension</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+            </ul>
+          </div>
+          <div
+            class="flex flex-1"
+          >
+            <div
+              class="gp-tab-item-container p-4 pb-0"
+              key="gW09orMPJm" 
+              style="--w:100%"
+            >
+            
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="gJIEinX2f6"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-2xl);--pl:var(--g-s-2xl);--pb:var(--g-s-2xl);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, auto);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gJIEinX2f6 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gnBHszDl6T relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g-EyHEvNE7"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:auto;--pl:auto;--pb:auto;--pr:auto;--cg:30px;--pc:start;--gtc:minmax(0, 8fr) minmax(0, 4fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g-EyHEvNE7 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="giKJmztmkt relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g9m9H9PyDk"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g9m9H9PyDk mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gSv8oPg1qB relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gKHSeGu-Nk "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Color</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gJ2GJO9VOk relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g9wpdhUDvj "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:15px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Rainbow Sharp Color</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="g2hF3gMmOs"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g2hF3gMmOs mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g7mLyODztH relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gVkgO5NzzB "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(15,17,17);font-size:14px;"><strong>Frame Material</strong></span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gGEZpNPTUx relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gzAsjUiD0F "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:20px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(15,17,17);font-size:14px;">Alloy Steel and Extra Sturdy Heavy-Duty Frame</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gWzM3jkd0M"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gWzM3jkd0M mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gnlf58TNvE relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="grdLWRTc9Z "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(15,17,17);font-size:14px;"><strong>Fabric Type</strong></span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gZpzhhABPx relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g96Y1TrT_X "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="font-size:14px !important;">OEKO-TEX Certified Polyester Fabric, 600 D, UV Resistant, and Water-repellent.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gLe8xW9SfK"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gLe8xW9SfK mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gUZM_kSeHY relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gMhlXgpivV "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(15,17,17);font-size:14px;"><strong>Harness Type</strong></span></p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="ghrDH6Nnaw relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gwDPs2bAQa "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="font-size:14px !important;">5-Point Safety Harness</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gdk3i1eILP"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gdk3i1eILP mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gAlBHzFjMQ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gYSYr698F_ "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Brake System</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g-SOGEPcsa relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gcWaT_IF4C "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">One-step</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gmJGjbibjw"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gmJGjbibjw mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gUPpZScQzu relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gPgtjkScKO "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Reclining Seat System</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g3YEtvbbkL relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gr_SSMkEfs "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:justify;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">4 Front&nbsp;&amp; Middle Seats can recline up to </span><span style="background-color:rgb(255,255,255);color:rgb(70,45,46);font-size:16px;">140</span><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">° for 6 months babies and above.</span><br><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">2 Back Seats can recline up to </span><span style="background-color:rgb(255,255,255);color:rgb(70,45,46);font-size:16px;">160</span><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">° for infants.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="g3L76T-4hz"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g3L76T-4hz mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gSxDco5xhy relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gasJQ1z6oY "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Included Component</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g6hwLQd0SV relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gNdqtg3QzG "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:justify;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">6 Colorful Pockets, UV-Blocking Double Canopy, Ample Storage Basket, Rain &amp; Snow Cover, and Detachable Bumper Bar.</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g352D_Una- relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image g0nU425crV"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:var(undefined);--mt-mobile:var(--g-s-2xl);--mb-mobile:var(undefined);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Stroller Dimension"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="{{ "499742552031757542-c35b4c6f-c2c9-454d-85ae-d5f4a2ab1a1c.png" | asset_url }}" data-srcset="{{ '499742552031757542-c35b4c6f-c2c9-454d-85ae-d5f4a2ab1a1c.png' | asset_img_url: '768x768' }} 768w, {{ '499742552031757542-c35b4c6f-c2c9-454d-85ae-d5f4a2ab1a1c.png' | asset_img_url: '1024x1024' }} 1024w, {{ '499742552031757542-c35b4c6f-c2c9-454d-85ae-d5f4a2ab1a1c.png' | asset_img_url: 'master' }} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width height alt="Familidoo 6 Seat Stroller Dimension" priority base-src
+    sizes="100vw"
+    style="--aspect:0/0;--aspect-tablet:0/0;--aspect-mobile:0/0;--objf:cover;--w:120%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+  </div>
+  
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="gGohRmWse8"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-2xl);--pl:var(--g-s-2xl);--pb:var(--g-s-2xl);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, auto);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gGohRmWse8 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g0ttsW-pTx relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gQSQdqHUOJ"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:auto;--pl:auto;--pb:auto;--pr:auto;--cg:30px;--pc:start;--gtc:minmax(0, 8fr) minmax(0, 4fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gQSQdqHUOJ mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gQC2V4Wbmf relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="garWbnYK13"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="garWbnYK13 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gqfdzA3X6X relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="goJvYSgLAb "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#141414;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Product Dimension</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="guidzYnYqK relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gTRUGlIGIX "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">61"L x 23.6"W x 38.5"H</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gIOGiwRjTT"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gIOGiwRjTT mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g1JAzUWgIo relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g5lZKfDamh "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#141414;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Folded Dimension</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gDOvDNLvl1 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gD60PlvMJ7 "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">48.4''L x 23.6''W x 23.8''H</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="giarId0gx4"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="giarId0gx4 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gs05BweuEu relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="grIisrS9xj "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#141414;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Item Weight</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gzekMOMRTz relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g7pBU2WzYK "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:20px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">64 Pounds</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gBSgI8XUJv"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gBSgI8XUJv mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gDQ3Ppt320 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gH7a_qVgah "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#141414;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Maximum Weight per Seat&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gRwk80GLh4 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="ghiabcxcYU "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:20px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">Can carry up to 40 pounds</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gZhFpbNGeH"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l);--mb-mobile:0px;--pt-mobile:var(--g-s-l);--pb-mobile:var(--g-s-l);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 5fr) minmax(0, 7fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gZhFpbNGeH mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g9YmN03mbL relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gMO6Vc0iMY "
+        style="--tt:uppercase;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#141414;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Maximum Weight Recommendation&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gG32AIxdbR relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gO7qo5xUVW "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans');--weight:400;--ls:normal;--lh:150%;--size:18px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p><span style="background-color:rgb(255,255,255);color:rgb(51,51,51);font-size:14px;">240 Pounds</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gZFTaIN1Pm relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gvht8aK9Li"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mt:var(undefined);--mt-mobile:var(--g-s-2xl);--mb-mobile:0px;--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Daycare Trusted Stroller"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="{{ "499742552031757542-4b1231f5-a3f7-42ab-b54a-82dcdf25b7f2.png" | asset_url }}" data-srcset="{{ '499742552031757542-4b1231f5-a3f7-42ab-b54a-82dcdf25b7f2.png' | asset_img_url: '768x768' }} 768w, {{ '499742552031757542-4b1231f5-a3f7-42ab-b54a-82dcdf25b7f2.png' | asset_img_url: '1024x1024' }} 1024w, {{ '499742552031757542-4b1231f5-a3f7-42ab-b54a-82dcdf25b7f2.png' | asset_img_url: 'master' }} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" alt="Daycare Center Trusted Stroller" priority base-src
+    sizes="100vw"
+    style="--aspect:null/null;--aspect-tablet:null/null;--aspect-mobile:null/null;--objf:cover;--w:150%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+  </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </gp-tab>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-tab.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 3",
+    "tag": "section",
+    "class": "gps-501896734117528544 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/familidoo/apps/bold/app/shopify/edit?pageType=GP_PRODUCT&editorId=501896733983245280&sectionId=501896734117528544)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}

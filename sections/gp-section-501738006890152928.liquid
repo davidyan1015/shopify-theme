@@ -1,0 +1,1010 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGaV2Q.woff) format('woff');
+}
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGSV2YOrrM95Dylg.woff) format('woff');
+  unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGiV2YOrrM95Dylg.woff) format('woff');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGaV2YOrrM95Dw.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-501738006890152928 .btn-disabled{cursor:default}.gps-501738006890152928 .pointer-events-none{pointer-events:none}.gps-501738006890152928 .invisible{visibility:hidden}.gps-501738006890152928 .absolute{position:absolute}.gps-501738006890152928 .relative{position:relative}.gps-501738006890152928 .z-1{z-index:1}.gps-501738006890152928 .\!m-auto{margin:auto!important}.gps-501738006890152928 .mx-auto{margin-left:auto;margin-right:auto}.gps-501738006890152928 .mb-0{margin-bottom:0}.gps-501738006890152928 .flex{display:flex}.gps-501738006890152928 .inline-flex{display:inline-flex}.gps-501738006890152928 .grid{display:grid}.gps-501738006890152928 .contents{display:contents}.gps-501738006890152928 .\!hidden{display:none!important}.gps-501738006890152928 .hidden{display:none}.gps-501738006890152928 .h-5{height:20px}.gps-501738006890152928 .h-full{height:100%}.gps-501738006890152928 .w-5{width:20px}.gps-501738006890152928 .w-full{width:100%}.gps-501738006890152928 .max-w-full{max-width:100%}@keyframes spin{to{transform:rotate(1turn)}}.gps-501738006890152928 .animate-spin{animation:spin 1s linear infinite}.gps-501738006890152928 .flex-col{flex-direction:column}.gps-501738006890152928 .items-center{align-items:center}.gps-501738006890152928 .justify-center{justify-content:center}.gps-501738006890152928 .gap-y-0{row-gap:0}.gps-501738006890152928 .overflow-hidden{overflow:hidden}.gps-501738006890152928 .break-words{overflow-wrap:break-word}.gps-501738006890152928 .rounded-none{border-radius:0}.gps-501738006890152928 .no-underline{text-decoration-line:none}.gps-501738006890152928 .decoration-g-text-1{text-decoration-color:var(--g-c-text-1)}.gps-501738006890152928 .opacity-25{opacity:.25}.gps-501738006890152928 .opacity-30{opacity:.3}.gps-501738006890152928 .opacity-75{opacity:.75}.gps-501738006890152928 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-501738006890152928 .duration-200{transition-duration:.2s}.gps-501738006890152928 .duration-300{transition-duration:.3s}.gps-501738006890152928 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-501738006890152928 .disabled\:btn-disabled:disabled{cursor:default}@media (hover:hover) and (pointer:fine){.gps-501738006890152928 .hover\:bg-g-highlight:hover{background-color:var(--g-c-highlight)}}.gps-501738006890152928 .disabled\:pointer-events-none:disabled{pointer-events:none}.gps-501738006890152928 .disabled\:opacity-30:disabled{opacity:.3}.gps-501738006890152928 .data-\[hidden\=true\]\:hidden[data-hidden=true]{display:none}.gps-501738006890152928 .group[data-state=loading] .group-data-\[state\=loading\]\:visible{visibility:visible}.gps-501738006890152928 .group[data-state=loading] .group-data-\[state\=loading\]\:invisible{visibility:hidden}.gps-501738006890152928 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-501738006890152928 .\[\&_p\]\:inline p{display:inline}.gps-501738006890152928 .\[\&_p\]\:whitespace-pre-line p{white-space:pre-line}.gps-501738006890152928 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-501738006890152928 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--w-mobile:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--pl:0px;--pl-tablet:var(--g-ct-p, 15px);--pl-mobile:var(--g-ct-p, 15px);--pr:0px;--pr-tablet:var(--g-ct-p, 15px);--pr-mobile:var(--g-ct-p, 15px)"
+            >
+              
+    <div
+      id="i2lae8fd27a63"
+        style="--mt:0px;--ml:auto;--mb:0px;--mr:auto;--pt:30px;--pl:0px;--pb:30px;--pr:0px;--cg:32px;--cg-tablet:32px;--pc:center;--gtc:minmax(0, 12fr);--gtc-tablet:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:rgb(254, 254, 254)"
+        class="i2lae8fd27a63 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-w-i2lae8fd27a63 relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="w-i2lae8fd27a63"
+        style="--mt:0px;--ml:auto;--mb:0px;--mr:auto;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--cg:32px;--cg-tablet:32px;--pc:center;--gtc:minmax(0, 12fr);--gtc-tablet:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="w-i2lae8fd27a63 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-i2la46dd5e668 relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="i2la46dd5e668"
+        style="--mt:0px;--ml:auto;--mb:0px;--mr:auto;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--cg:32px;--cg-tablet:32px;--pc:start;--gtc:minmax(0, 5fr) minmax(0, 5fr) minmax(0, 2fr);--gtc-tablet:minmax(0, 5fr) minmax(0, 5fr) minmax(0, 2fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%"
+        class="i2la46dd5e668 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-i2l9f39d88fad relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="i2l9f39d88fad"
+        style="--mt:0px;--ml:auto;--mb:0px;--mr:auto;--pt:0px;--pl:0px;--pb:100px;--pr:0px;--cg:32px;--cg-tablet:32px;--pc:start;--gtc:minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr);--gtc-tablet:minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="i2l9f39d88fad mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-mAsiDCWEhdfo relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="mAsiDCWEhdfo "
+        style="--ta:left;--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px;--c:rgb(255, 111, 3);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        >
+        Multi-Passenger
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-JsfKqoBBsTXH relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="JsfKqoBBsTXH "
+        style="--ta:left;--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px;--c:rgb(3, 3, 3);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        >
+        Single Stroller
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-eCqKTlBPpvYk relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="eCqKTlBPpvYk "
+        style="--ta:left;--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px;--c:rgb(3, 3, 3);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        >
+        Toys & Crafts
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-JCMzrkOdyVvU relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="JCMzrkOdyVvU "
+        style="--ta:left;--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px;--c:rgb(3, 3, 3);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        >
+        Accessories
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-i2l5069539a64 relative flex flex-col"
+    >
+      <div style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:76px;--pl:0px;--pb:100px;--pr:0px;--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%" class="i2l5069539a64 ">
+       
+<script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-product.v2.js" defer="defer"></script>
+{%- assign gpBkProduct = product -%}
+{%- assign gpBkProducts = products -%}
+{%- liquid
+      assign productHandles = ''| split: ','
+      assign products = null
+      assign target_collection = null
+      assign productSrc = 'PickProduct'
+      assign c = 0
+
+      if request.page_type == 'collection'
+        assign target_collection = collection
+        if target_collection == empty or target_collection == null
+          if 'latest' == 'latest'
+            assign target_collection = collections | sort: 'updated_at'  | first 
+          else
+            for collection in collections
+              if collection.id == Latest 
+                assign target_collection = collection 
+                break 
+              endif
+            endfor 
+          endif
+        endif
+        paginate target_collection.products by 4
+          assign products = target_collection.products  
+        endpaginate
+      else
+        if productSrc == 'PickProduct'
+          if 0 == 0
+            paginate collections.all.products by 100000
+              assign products = collections.all.products  | sort : "created_at"  | reverse 
+            endpaginate
+          endif
+        else
+          if 'latest' == 'latest'
+            assign target_collection = collections | sort: 'updated_at'  | first 
+          else
+            for collection in collections
+              if collection.id == Latest 
+                assign target_collection = collection 
+                break 
+              endif
+            endfor 
+          endif
+          paginate target_collection.products by 4
+            assign products = target_collection.products  
+          endpaginate
+        endif
+      endif
+      -%}
+      {%- if request.page_type == 'collection' -%}
+        
+    {%- if products == null -%}
+        <div> Product Not Found!</div>
+      {%-else-%}
+        
+    
+    <div  style="--w:100%;--w-tablet:100%;--w-mobile:100%;--rg:32px;--cg:32px;--cg-tablet:32px;--gtc:repeat(4, minmax(0, 1fr))"
+          class="grid !m-auto w-full"
+      >
+        
+      {%- for productItem in products   limit: 4  -%}
+          {%- assign product =  productItem -%}
+          {%- assign variant = product.selected_or_first_available_variant -%}
+          {%- assign product_form_id = 'product-form-' | append: "i2l5069539a64" | append: product.id -%}
+              <gp-product gp-context='{"variantSelected": {{ variant | json | escape }}, "quantity": 1 ,  "formId": "{{ product_form_id }}"}' gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1}'>
+                {%- form 'product', product, id: product_form_id, class: 'form contents',  data-type: 'add-to-cart-form', autocomplete: 'off' -%}
+                <input type="hidden" name="id" value="{{ variant.id }}" />
+                <input type="hidden" min="1" name="quantity"  value="{{ quantity }}" />
+                    <button type="submit" onclick="return false;" style="display:none;"></button> 
+                        <div
+      
+      style=""
+      class="i2l7967884e7d relative flex flex-col"
+    >
+      <div style="--mt:0px;--ml:0px;--mb:8px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px" class="FxBRfvqFZwrt ">
+      
+    {%- unless product -%}
+      <p>Product not found</p>
+    {%- else -%}
+      
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <h1
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A']"
+          style="--w:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:rgb(3, 3, 3);--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px;word-break:break-word"
+        >
+        {{ product.title }}
+        </h1>
+      </div>
+    </div>
+      
+    {%- endunless -%}
+  
+      </div>
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-product-price.js" defer="defer"></script>
+      <gp-product-price
+        gp-data='{"priceType":"regular","uid":"ilpkeIklIePL","locale":"{{shop.locale}}","currency":"{{shop.currency}}","moneyFormat":"{{ shop.money_format | replace: '"', '\\"' | escape }}"}'
+        
+        class=" data-[hidden=true]:hidden"
+        style="--mt:0px;--ml:0px;--mb:8px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px"
+        data-hidden="false"
+      >
+        
+    <div
+      id="p-price-ilpkeIklIePL"
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-price gp-money decoration-g-text-1"
+          style="--w:100%;--tdc:text-1;--tdt:1;--ta:center;--c:rgb(3, 3, 3);--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:180%;--size:15px;--size-tablet:16px;--size-mobile:14px;word-break:break-word"
+        >
+        
+                  {% if variant.price %} 
+                    {{ variant.price | money}}
+                  {% endif %}
+                
+        </div>
+      </div>
+    </div>
+      </gp-product-price>
+  
+      
+      
+    <div
+      parentTag="Col" id="r-i2l42bf2fe42e"
+        style="--mt:0px;--ml:auto;--mb:0px;--mr:auto;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--cg:32px;--cg-tablet:32px;--pc:center;--gtc:minmax(0, 12fr);--gtc-tablet:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="r-i2l42bf2fe42e mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="i2l42bf2fe42e relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-product-button.js" defer="defer"></script>
+  
+  
+  
+   {%- liquid
+      assign inventory_quantity = variant.inventory_quantity | default: 0
+    -%}
+    <gp-product-button
+      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","label":"Shop now","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"type":"paragraph-2"},"successTypo":{"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}'
+    >
+        
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Shop now","htmlType":"button","iconAlign":"left","iconSvg":"<svg style=\"width: 100% !important; height: 100% !important\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.5625 19.6875C9.5625 19.8958 9.66667 20 9.875 20H25.3125V22.6875H9.3125C8.60417 22.6875 7.97917 22.4167 7.4375 21.875C6.9375 21.3333 6.6875 20.7083 6.6875 20C6.6875 19.5833 6.79167 19.1667 7 18.75L8.8125 15.4375L4 5.3125H1.3125V2.6875H5.6875C6.52083 4.4375 7.35417 6.20833 8.1875 8C8.39583 8.375 8.875 9.375 9.625 11C10.375 12.5833 10.9583 13.8125 11.375 14.6875H20.75C23.875 9.02083 25.5833 5.89583 25.875 5.3125L28.1875 6.625L23.0625 15.9375C22.5625 16.8542 21.7917 17.3125 20.75 17.3125H10.8125L9.625 19.5L9.5625 19.6875ZM20.8125 24.8125C21.3542 24.2708 21.9792 24 22.6875 24C23.3958 24 24 24.2708 24.5 24.8125C25.0417 25.3542 25.3125 25.9792 25.3125 26.6875C25.3125 27.3958 25.0417 28.0208 24.5 28.5625C24 29.0625 23.3958 29.3125 22.6875 29.3125C21.9792 29.3125 21.3542 29.0625 20.8125 28.5625C20.2708 28.0208 20 27.3958 20 26.6875C20 25.9792 20.2708 25.3542 20.8125 24.8125ZM7.4375 24.8125C7.97917 24.2708 8.60417 24 9.3125 24C10.0208 24 10.6458 24.2708 11.1875 24.8125C11.7292 25.3542 12 25.9792 12 26.6875C12 27.3958 11.7292 28.0208 11.1875 28.5625C10.6458 29.0625 10.0208 29.3125 9.3125 29.3125C8.60417 29.3125 7.97917 29.0625 7.4375 28.5625C6.9375 28.0208 6.6875 27.3958 6.6875 26.6875C6.6875 25.9792 6.9375 25.3542 7.4375 24.8125ZM14.6875 12V8H10.6875V5.3125H14.6875V1.3125H17.3125V5.3125H21.3125V8H17.3125V12H14.6875Z\" fill=\"#D6D6D6\"/>\n</svg>\n","iconVisible":false,"btnLink":{}}}' style="">
+  <div
+    
+    style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--ta:center"
+    class="{% unless variant.available %} !hidden {% endunless %}"
+  >
+    <style>
+    .vQZtUSGnpMJQ.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(3, 3, 3);
+  
+      
+      
+      
+      
+      
+      
+    }
+
+    .vQZtUSGnpMJQ:hover::before {
+      border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #4D4D4D;
+  
+      
+    }
+  </style>
+    <button
+      type="button" data-id="vQZtUSGnpMJQ" aria-label="Shop now"
+      data-state="idle"
+      class="vQZtUSGnpMJQ gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight gp-button-atc"
+      style="--bg:rgb(251, 251, 248);--hvr-bg:var(--g-c-highlight, highlight);--shadow:none;--c:rgb(3, 3, 3);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--tt:default;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Shop now
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+        
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Out of stock","htmlType":"button","iconAlign":"left","iconSvg":"<svg style=\"width: 100% !important; height: 100% !important\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.5625 19.6875C9.5625 19.8958 9.66667 20 9.875 20H25.3125V22.6875H9.3125C8.60417 22.6875 7.97917 22.4167 7.4375 21.875C6.9375 21.3333 6.6875 20.7083 6.6875 20C6.6875 19.5833 6.79167 19.1667 7 18.75L8.8125 15.4375L4 5.3125H1.3125V2.6875H5.6875C6.52083 4.4375 7.35417 6.20833 8.1875 8C8.39583 8.375 8.875 9.375 9.625 11C10.375 12.5833 10.9583 13.8125 11.375 14.6875H20.75C23.875 9.02083 25.5833 5.89583 25.875 5.3125L28.1875 6.625L23.0625 15.9375C22.5625 16.8542 21.7917 17.3125 20.75 17.3125H10.8125L9.625 19.5L9.5625 19.6875ZM20.8125 24.8125C21.3542 24.2708 21.9792 24 22.6875 24C23.3958 24 24 24.2708 24.5 24.8125C25.0417 25.3542 25.3125 25.9792 25.3125 26.6875C25.3125 27.3958 25.0417 28.0208 24.5 28.5625C24 29.0625 23.3958 29.3125 22.6875 29.3125C21.9792 29.3125 21.3542 29.0625 20.8125 28.5625C20.2708 28.0208 20 27.3958 20 26.6875C20 25.9792 20.2708 25.3542 20.8125 24.8125ZM7.4375 24.8125C7.97917 24.2708 8.60417 24 9.3125 24C10.0208 24 10.6458 24.2708 11.1875 24.8125C11.7292 25.3542 12 25.9792 12 26.6875C12 27.3958 11.7292 28.0208 11.1875 28.5625C10.6458 29.0625 10.0208 29.3125 9.3125 29.3125C8.60417 29.3125 7.97917 29.0625 7.4375 28.5625C6.9375 28.0208 6.6875 27.3958 6.6875 26.6875C6.6875 25.9792 6.9375 25.3542 7.4375 24.8125ZM14.6875 12V8H10.6875V5.3125H14.6875V1.3125H17.3125V5.3125H21.3125V8H17.3125V12H14.6875Z\" fill=\"#D6D6D6\"/>\n</svg>\n","iconVisible":false,"btnLink":{}}}' style="">
+  <div
+    
+    style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--ta:center"
+    class="{% if variant.available %} !hidden {% endif %}"
+  >
+    <style>
+    .vQZtUSGnpMJQ.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(3, 3, 3);
+  
+      
+      
+      
+      
+      
+      
+    }
+
+    .vQZtUSGnpMJQ:hover::before {
+      border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #4D4D4D;
+  
+      
+    }
+  </style>
+    <button
+      type="button" data-id="vQZtUSGnpMJQ" aria-label="Out of stock"
+      data-state="idle"
+      class="vQZtUSGnpMJQ gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight gp-button-sold-out btn-disabled opacity-30 pointer-events-none"
+      style="--bg:rgb(251, 251, 248);--hvr-bg:var(--g-c-highlight, highlight);--shadow:none;--c:rgb(3, 3, 3);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--tt:default;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Out of stock
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </gp-product-button>
+  
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"hop now","btnLink":{"link":"","target":"_self"},"iconVisible":false,"iconSvg":"<svg style=\"width: 100%; height: 100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"> <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M115.584 494.176c-12.352 6.336 -26.368 -4.768 -23.872 -18.944l26.56 -151.36L5.536 216.48c-10.528 -10.048 -5.056 -28.416 9.056 -30.4l156.736 -22.272L241.216 25.344c6.304 -12.48 23.36 -12.48 29.664 0l69.888 138.464 156.736 22.272c14.112 1.984 19.584 20.352 9.024 30.4l-112.704 107.392 26.56 151.36c2.496 14.176 -11.52 25.28 -23.872 18.944L256 421.984l-140.448 72.192z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false}}' style="">
+  <div
+    
+    style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--ta:center"
+    class=""
+  >
+    <style>
+    .LrERLXTKqJKs.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(3, 3, 3);
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .LrERLXTKqJKs:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="LrERLXTKqJKs" aria-label="hop now"
+      data-state="idle"
+      class="LrERLXTKqJKs gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight"
+      style="--bg:rgb(251, 251, 248);--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:rgb(3, 3, 3);--w:84px;--w-tablet:84px;--w-mobile:84px;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--tt:default;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:180%;--size:15px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        hop now
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div>
+    </div>
+  
+    
+    </div>
+                    {%- endform -%}
+              </gp-product>
+          {% endfor %}
+      
+      </div>
+
+    
+    
+        
+    {%- endif -%}
+    
+      {%-else-%}
+        
+    {%- if products == null -%}
+        <div> Product Not Found!</div>
+    {%-else-%}
+      
+      
+    <div  style="--w:100%;--w-tablet:100%;--w-mobile:100%;--rg:32px;--cg:32px;--cg-tablet:32px;--gtc:repeat(4, minmax(0, 1fr))"
+          class="grid !m-auto w-full"
+      >
+        
+        {%- for productItem in products   limit: 4  -%}
+        {%- assign product =  productItem -%}
+        {%- assign variant = product.selected_or_first_available_variant -%}
+        {%- assign product_form_id = 'product-form-' | append: "i2l5069539a64" | append: product.id -%}
+            <gp-product gp-context='{"variantSelected": {{ variant | json | escape }}, "quantity": 1 ,  "formId": "{{ product_form_id }}"}' gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1}'>
+              {%- form 'product', product, id: product_form_id, class: 'form contents',  data-type: 'add-to-cart-form', autocomplete: 'off' -%}
+              <input type="hidden" name="id" value="{{ variant.id }}" />
+              <input type="hidden" min="1" name="quantity"  value="{{ quantity }}" />
+              <button type="submit" onclick="return false;" style="display:none;"></button> 
+                      <div
+      
+      style=""
+      class="i2l7967884e7d relative flex flex-col"
+    >
+      <div style="--mt:0px;--ml:0px;--mb:8px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px" class="FxBRfvqFZwrt ">
+      
+    {%- unless product -%}
+      <p>Product not found</p>
+    {%- else -%}
+      
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <h1
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A']"
+          style="--w:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:rgb(3, 3, 3);--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px;word-break:break-word"
+        >
+        {{ product.title }}
+        </h1>
+      </div>
+    </div>
+      
+    {%- endunless -%}
+  
+      </div>
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-product-price.js" defer="defer"></script>
+      <gp-product-price
+        gp-data='{"priceType":"regular","uid":"ilpkeIklIePL","locale":"{{shop.locale}}","currency":"{{shop.currency}}","moneyFormat":"{{ shop.money_format | replace: '"', '\\"' | escape }}"}'
+        
+        class=" data-[hidden=true]:hidden"
+        style="--mt:0px;--ml:0px;--mb:8px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px"
+        data-hidden="false"
+      >
+        
+    <div
+      id="p-price-ilpkeIklIePL"
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-price gp-money decoration-g-text-1"
+          style="--w:100%;--tdc:text-1;--tdt:1;--ta:center;--c:rgb(3, 3, 3);--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:180%;--size:15px;--size-tablet:16px;--size-mobile:14px;word-break:break-word"
+        >
+        
+                  {% if variant.price %} 
+                    {{ variant.price | money}}
+                  {% endif %}
+                
+        </div>
+      </div>
+    </div>
+      </gp-product-price>
+  
+      
+      
+    <div
+      parentTag="Col" id="r-i2l42bf2fe42e"
+        style="--mt:0px;--ml:auto;--mb:0px;--mr:auto;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--cg:32px;--cg-tablet:32px;--pc:center;--gtc:minmax(0, 12fr);--gtc-tablet:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="r-i2l42bf2fe42e mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="i2l42bf2fe42e relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-product-button.js" defer="defer"></script>
+  
+  
+  
+   {%- liquid
+      assign inventory_quantity = variant.inventory_quantity | default: 0
+    -%}
+    <gp-product-button
+      gp-data='{"setting":{"actionEffect":"continue-shopping","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","label":"Shop now","outOfStockLabel":"Out of stock","errorType":"built-in","customURL":{"link":"/cart","target":"_self"}},"styles":{"errorTypo":{"type":"paragraph-2"},"successTypo":{"type":"paragraph-2"}},"disabled":"{{variant.available}}","variantID":"{{variant.id}}","totalVariant":"{{product.variants.size}}"}'
+    >
+        
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Shop now","htmlType":"button","iconAlign":"left","iconSvg":"<svg style=\"width: 100% !important; height: 100% !important\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.5625 19.6875C9.5625 19.8958 9.66667 20 9.875 20H25.3125V22.6875H9.3125C8.60417 22.6875 7.97917 22.4167 7.4375 21.875C6.9375 21.3333 6.6875 20.7083 6.6875 20C6.6875 19.5833 6.79167 19.1667 7 18.75L8.8125 15.4375L4 5.3125H1.3125V2.6875H5.6875C6.52083 4.4375 7.35417 6.20833 8.1875 8C8.39583 8.375 8.875 9.375 9.625 11C10.375 12.5833 10.9583 13.8125 11.375 14.6875H20.75C23.875 9.02083 25.5833 5.89583 25.875 5.3125L28.1875 6.625L23.0625 15.9375C22.5625 16.8542 21.7917 17.3125 20.75 17.3125H10.8125L9.625 19.5L9.5625 19.6875ZM20.8125 24.8125C21.3542 24.2708 21.9792 24 22.6875 24C23.3958 24 24 24.2708 24.5 24.8125C25.0417 25.3542 25.3125 25.9792 25.3125 26.6875C25.3125 27.3958 25.0417 28.0208 24.5 28.5625C24 29.0625 23.3958 29.3125 22.6875 29.3125C21.9792 29.3125 21.3542 29.0625 20.8125 28.5625C20.2708 28.0208 20 27.3958 20 26.6875C20 25.9792 20.2708 25.3542 20.8125 24.8125ZM7.4375 24.8125C7.97917 24.2708 8.60417 24 9.3125 24C10.0208 24 10.6458 24.2708 11.1875 24.8125C11.7292 25.3542 12 25.9792 12 26.6875C12 27.3958 11.7292 28.0208 11.1875 28.5625C10.6458 29.0625 10.0208 29.3125 9.3125 29.3125C8.60417 29.3125 7.97917 29.0625 7.4375 28.5625C6.9375 28.0208 6.6875 27.3958 6.6875 26.6875C6.6875 25.9792 6.9375 25.3542 7.4375 24.8125ZM14.6875 12V8H10.6875V5.3125H14.6875V1.3125H17.3125V5.3125H21.3125V8H17.3125V12H14.6875Z\" fill=\"#D6D6D6\"/>\n</svg>\n","iconVisible":false,"btnLink":{}}}' style="">
+  <div
+    
+    style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--ta:center"
+    class="{% unless variant.available %} !hidden {% endunless %}"
+  >
+    <style>
+    .vQZtUSGnpMJQ.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(3, 3, 3);
+  
+      
+      
+      
+      
+      
+      
+    }
+
+    .vQZtUSGnpMJQ:hover::before {
+      border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #4D4D4D;
+  
+      
+    }
+  </style>
+    <button
+      type="button" data-id="vQZtUSGnpMJQ" aria-label="Shop now"
+      data-state="idle"
+      class="vQZtUSGnpMJQ gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight gp-button-atc"
+      style="--bg:rgb(251, 251, 248);--hvr-bg:var(--g-c-highlight, highlight);--shadow:none;--c:rgb(3, 3, 3);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--tt:default;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Shop now
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+        
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Out of stock","htmlType":"button","iconAlign":"left","iconSvg":"<svg style=\"width: 100% !important; height: 100% !important\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.5625 19.6875C9.5625 19.8958 9.66667 20 9.875 20H25.3125V22.6875H9.3125C8.60417 22.6875 7.97917 22.4167 7.4375 21.875C6.9375 21.3333 6.6875 20.7083 6.6875 20C6.6875 19.5833 6.79167 19.1667 7 18.75L8.8125 15.4375L4 5.3125H1.3125V2.6875H5.6875C6.52083 4.4375 7.35417 6.20833 8.1875 8C8.39583 8.375 8.875 9.375 9.625 11C10.375 12.5833 10.9583 13.8125 11.375 14.6875H20.75C23.875 9.02083 25.5833 5.89583 25.875 5.3125L28.1875 6.625L23.0625 15.9375C22.5625 16.8542 21.7917 17.3125 20.75 17.3125H10.8125L9.625 19.5L9.5625 19.6875ZM20.8125 24.8125C21.3542 24.2708 21.9792 24 22.6875 24C23.3958 24 24 24.2708 24.5 24.8125C25.0417 25.3542 25.3125 25.9792 25.3125 26.6875C25.3125 27.3958 25.0417 28.0208 24.5 28.5625C24 29.0625 23.3958 29.3125 22.6875 29.3125C21.9792 29.3125 21.3542 29.0625 20.8125 28.5625C20.2708 28.0208 20 27.3958 20 26.6875C20 25.9792 20.2708 25.3542 20.8125 24.8125ZM7.4375 24.8125C7.97917 24.2708 8.60417 24 9.3125 24C10.0208 24 10.6458 24.2708 11.1875 24.8125C11.7292 25.3542 12 25.9792 12 26.6875C12 27.3958 11.7292 28.0208 11.1875 28.5625C10.6458 29.0625 10.0208 29.3125 9.3125 29.3125C8.60417 29.3125 7.97917 29.0625 7.4375 28.5625C6.9375 28.0208 6.6875 27.3958 6.6875 26.6875C6.6875 25.9792 6.9375 25.3542 7.4375 24.8125ZM14.6875 12V8H10.6875V5.3125H14.6875V1.3125H17.3125V5.3125H21.3125V8H17.3125V12H14.6875Z\" fill=\"#D6D6D6\"/>\n</svg>\n","iconVisible":false,"btnLink":{}}}' style="">
+  <div
+    
+    style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--ta:center"
+    class="{% if variant.available %} !hidden {% endif %}"
+  >
+    <style>
+    .vQZtUSGnpMJQ.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(3, 3, 3);
+  
+      
+      
+      
+      
+      
+      
+    }
+
+    .vQZtUSGnpMJQ:hover::before {
+      border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #4D4D4D;
+  
+      
+    }
+  </style>
+    <button
+      type="button" data-id="vQZtUSGnpMJQ" aria-label="Out of stock"
+      data-state="idle"
+      class="vQZtUSGnpMJQ gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight gp-button-sold-out btn-disabled opacity-30 pointer-events-none"
+      style="--bg:rgb(251, 251, 248);--hvr-bg:var(--g-c-highlight, highlight);--shadow:none;--c:rgb(3, 3, 3);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--tt:default;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Out of stock
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </gp-product-button>
+  
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"hop now","btnLink":{"link":"","target":"_self"},"iconVisible":false,"iconSvg":"<svg style=\"width: 100%; height: 100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"> <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M115.584 494.176c-12.352 6.336 -26.368 -4.768 -23.872 -18.944l26.56 -151.36L5.536 216.48c-10.528 -10.048 -5.056 -28.416 9.056 -30.4l156.736 -22.272L241.216 25.344c6.304 -12.48 23.36 -12.48 29.664 0l69.888 138.464 156.736 22.272c14.112 1.984 19.584 20.352 9.024 30.4l-112.704 107.392 26.56 151.36c2.496 14.176 -11.52 25.28 -23.872 18.944L256 421.984l-140.448 72.192z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false}}' style="">
+  <div
+    
+    style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--ta:center"
+    class=""
+  >
+    <style>
+    .LrERLXTKqJKs.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(3, 3, 3);
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .LrERLXTKqJKs:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="LrERLXTKqJKs" aria-label="hop now"
+      data-state="idle"
+      class="LrERLXTKqJKs gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight"
+      style="--bg:rgb(251, 251, 248);--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:rgb(3, 3, 3);--w:84px;--w-tablet:84px;--w-mobile:84px;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--tt:default;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:180%;--size:15px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        hop now
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div>
+    </div>
+  
+    
+    </div>
+              {%- endform -%}
+            </gp-product>
+        {% endfor %}
+      
+      </div>
+
+    
+    
+      
+    {%- endif -%}
+    
+      {%- endif -%}
+{%- assign product = gpBkProduct -%}
+{%- assign products = gpBkProducts -%}
+
+      </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="c-lzSkyssYyxqe relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Shop All Categories","btnLink":{"link":"","target":"_self"},"iconVisible":false,"iconSvg":"<svg style=\"width: 100%; height: 100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"> <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M115.584 494.176c-12.352 6.336 -26.368 -4.768 -23.872 -18.944l26.56 -151.36L5.536 216.48c-10.528 -10.048 -5.056 -28.416 9.056 -30.4l156.736 -22.272L241.216 25.344c6.304 -12.48 23.36 -12.48 29.664 0l69.888 138.464 156.736 22.272c14.112 1.984 19.584 20.352 9.024 30.4l-112.704 107.392 26.56 151.36c2.496 14.176 -11.52 25.28 -23.872 18.944L256 421.984l-140.448 72.192z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false}}' style="">
+  <div
+    
+    style="--mt:0px;--ml:0px;--mb:0px;--mr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--ta:left"
+    class=""
+  >
+    <style>
+    .lzSkyssYyxqe.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgb(44, 44, 46);
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .lzSkyssYyxqe:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="lzSkyssYyxqe" aria-label="Shop All Categories"
+      data-state="idle"
+      class="lzSkyssYyxqe gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight"
+      style="--bg:rgb(254, 254, 254);--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:rgb(44, 44, 46);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:8px;--pb:8px;--tt:default;--ff:var(--g-font-Assistant, 'Assistant');--weight:400;--lh:130%;--size:19px;--size-tablet:18px;--size-mobile:16px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Shop All Categories
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 15",
+    "tag": "section",
+    "class": "gps-501738006890152928 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/familidoo/apps/bold/app/shopify/edit?pageType=GP_PRODUCT&editorId=501426455549313978&sectionId=501738006890152928)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}

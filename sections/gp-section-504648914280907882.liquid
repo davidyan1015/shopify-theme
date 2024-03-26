@@ -1,0 +1,992 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-aWy5U&skey=68e231d243ba982&v=v7) format('woff');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaWy5U&skey=68e231d243ba982&v=v7) format('woff');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiaWy5U&skey=68e231d243ba982&v=v7) format('woff');
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsK8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsD8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsL8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsE8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsI8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsJ8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsH8ahuQ2e8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsK8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsD8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsL8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsE8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsI8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsJ8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsH8ahuQ2e8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsK8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsD8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsL8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsE8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsI8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsJ8ahuQ2e8Smg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsH8ahuQ2e8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-504648914280907882 .filter{--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: }.gps-504648914280907882 .pointer-events-auto{pointer-events:auto}.gps-504648914280907882 .relative{position:relative}.gps-504648914280907882 .mx-auto{margin-left:auto;margin-right:auto}.gps-504648914280907882 .mb-0{margin-bottom:0}.gps-504648914280907882 .block{display:block}.gps-504648914280907882 .\!inline{display:inline!important}.gps-504648914280907882 .flex{display:flex}.gps-504648914280907882 .grid{display:grid}.gps-504648914280907882 .h-full{height:100%}.gps-504648914280907882 .w-full{width:100%}.gps-504648914280907882 .max-w-full{max-width:100%}.gps-504648914280907882 .flex-col{flex-direction:column}.gps-504648914280907882 .gap-y-0{row-gap:0}.gps-504648914280907882 .filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.gps-504648914280907882 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-504648914280907882 .duration-200{transition-duration:.2s}.gps-504648914280907882 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-504648914280907882 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-504648914280907882 .\[\&_p\]\:inline p{display:inline}.gps-504648914280907882 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-504648914280907882 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="gj4p631Aw6"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-4xl);--pl:15px;--pb:var(--g-s-3xl);--pr:15px;--pt-mobile:var(--g-s-3xl);--pb-mobile:var(--g-s-3xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gj4p631Aw6 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gD4BM-j5zP relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gPf__RZwe1"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--cg:48px;--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:1000px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gPf__RZwe1 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g4L9LCR6iV relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gefTzgIw_J"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pos:sticky;--radius:var(--g-radius-none);--mb:var(--g-s-l);--mb-mobile:var(--g-s-l);--pb-mobile:0px;--top:80px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gefTzgIw_J mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="giuKiy5EmF relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gD4WUeCu70 "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>1. Contact</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gUzVum6aUs "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>2. Collecting Personal Information</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gpaZksSIWN "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>3. Sharing Personal Information</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gxjqP_hsKW "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>4. Behavioural Advertising</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g_EqJlrHAI "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>5. Using Personal Information</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gMrPo-8ZxJ "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>6. Selling Personal Information</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gYrLerxkzU "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>7. Your Rights</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g-76Jq7AM0 "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>8. Cookies</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gom6Kw_8xm "
+        style="--ta:left;--b:solid;--bc:#EEEEEE;--bw:0px 0px 1px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>9. Changes</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gbrP2TUt2t "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pt:var(--g-s-l);--pb:var(--g-s-l);--mb-mobile:var(--g-s-2xl);--pt-mobile:var(--g-s-l);--pb-mobile:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>10. Complaints</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g6E4ePVoLN relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gAfPxFxLvi"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gAfPxFxLvi mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g-sTADKI_D relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g3nLA2vvYx "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>1. contact</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g3n3I6tqu5 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>After reviewing this policy, if you have additional questions, want more information about our privacy practices, or would like to make a complaint, please contact us by e-mail at info@familidooglobal.com.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gB0inVQVbd"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gB0inVQVbd mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="geHXAM-P9t relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gYoCgSVoAY "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>2. collecting personal information</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g0wH2SR2f7 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>When you visit the Site, we collect certain information about your device, your interaction with the Site, and information necessary to process your purchases. We may also collect additional information if you contact us for customer support. In this Privacy Policy, we refer to any information about an identifiable individual (including the information below) as “Personal Information”. See the list below for more information about what Personal Information we collect and why.</p><p>&nbsp;</p><p><strong>I - Device information</strong></p><p>- Purpose of collection: to load the Site accurately for you, and to perform analytics on Site usage to optimize our Site.</p><p>- Source of collection: Collected automatically when you access our Site using cookies, log files, web beacons, tags, or pixels</p><p>- Disclosure for a business purpose: shared with our processor Shopify</p><p>- Personal Information collected: version of web browser, IP address, time zone, cookie information, what sites or products you view, search terms, and how you interact with the Site</p><p>&nbsp;</p><p><strong>II - Order information</strong></p><p>- Purpose of collection: to provide products or services to you to fulfill our contract, to process your payment information, arrange for shipping, and provide you with invoices and/or order confirmations, communicate with you, screen our orders for potential risk or fraud, and when in line with the preferences you have shared with us, provide you with information or advertising relating to our products or services.</p><p>- Source of collection: collected from you.</p><p>- Disclosure for a business purpose: shared with our processor Shopify</p><p>- Personal Information collected: name, billing address, shipping address, payment information (including credit card numbers, email address, and phone number.</p><p>&nbsp;</p><p><strong>III - Customer support information</strong></p><p>- Purpose of collection: to provide customer support.</p><p>- Source of collection: collected from you</p><p>&nbsp;</p><p><strong>Minors</strong></p><p>The Site is not intended for individuals under the age of [13]. We do not intentionally collect Personal Information from children. If you are the parent or guardian and believe your child has provided us with Personal Information, please contact us at the address above to request deletion.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gtYIB2DVY4"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gtYIB2DVY4 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gFdoXtX3w6 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gkbFOtbj5g "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>3. sharing personal information</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gS9vavSIkh "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>We share your Personal Information with service providers to help us provide our services and fulfill our contracts with you, as described above. For example:</p><p><br>We use Shopify to power our online store. You can read more about how Shopify uses your Personal Information here: <a href="https://www.shopify.com/legal/privacy"><span style="color:#476DF2;">https://www.shopify.com/legal/privacy</span></a>.</p><p>We may share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gcfqhUH5E1"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gcfqhUH5E1 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g4Z3GYBssw relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g-M-H7_F2N "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>4. behavioural advertising</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gGi0f21ARM "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For example:</p><p><br>- We use Google Analytics to help us understand how our customers use the Site. You can read more about how Google uses your Personal Information here: <a href="https://www.google.com/intl/en/policies/privacy/"><span style="color:#476DF2;">https://www.google.com/intl/en/policies/privacy/</span></a>. You can also opt-out of Google Analytics here: <a href="https://tools.google.com/dlpage/gaoptout"><span style="color:#476DF2;">https://tools.google.com/dlpage/gaoptout</span></a>.</p><p><br>- We share information about your use of the Site, your purchases, and your interaction with our ads on other websites with our advertising partners. We collect and share some of this information directly with our advertising partners, and in some cases through the use of cookies or other similar technologies (which you may consent to, depending on your location).</p><p><br>- We use Shopify Audiences to help us show ads on other websites with our advertising partners to buyers who made purchases with other Shopify merchants and who may also be interested in what we have to offer. We also share information about your use of the Site, your purchases, and the email address associated with your purchases with Shopify Audiences, through which other Shopify merchants may make offers you may be interested in.</p><p><br>For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at <a href="https://www.networkadvertising.org/understanding-online-advertising/how-does-it-work"><span style="color:#476DF2;">https://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</span></a>.</p><p><br>You can opt out of targeted advertising by:</p><p><br>FACEBOOK - <a href="https://www.facebook.com/settings/?tab=ads"><span style="color:#476DF2;">https://www.facebook.com/settings/?tab=ads</span></a></p><p>GOOGLE - <a href="https://www.google.com/settings/ads/anonymous"><span style="color:#476DF2;">https://www.google.com/settings/ads/anonymous</span></a></p><p>BING - <a href="https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads"><span style="color:#476DF2;">https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads</span></a></p><p>Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at: <a href="https://optout.aboutads.info"><span style="color:#476DF2;">https://optout.aboutads.info</span></a>.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gJtLuarAgn"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gJtLuarAgn mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gQ1L7WcxsV relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gJmWvEFP76 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>5. using personal information</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gdN3eXqnP- "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>We use your personal Information to provide our services to you, which includes: offering products for sale, processing payments, shipping and fulfillment of your order, and keeping you up to date on new products, services, and offers.</p><p>&nbsp;</p><p><strong>Lawful basis</strong></p><p>Pursuant to the General Data Protection Regulation (“GDPR”), if you are a resident of the European Economic Area (“EEA”), we process your personal information under the following lawful bases:</p><p><br>- Your consent;</p><p>- The performance of the contract between you and the Site;</p><p>- Compliance with our legal obligations;</p><p>- To protect your vital interests;</p><p>- To perform a task carried out in the public interest;</p><p>- For our legitimate interests, which do not override your fundamental rights and freedoms.</p><p>&nbsp;</p><p><strong>Retention</strong></p><p>When you place an order through the Site, we will retain your Personal Information for our records unless and until you ask us to erase this information. For more information on your right of erasure, please see the ‘Your rights’ section below.</p><p>&nbsp;</p><p><strong>Automatic decision-making</strong></p><p>If you are a resident of the EEA, you have the right to object to processing based solely on automated decision-making (which includes profiling), when that decision-making has a legal effect on you or otherwise significantly affects you.</p><p><br>We do not engage in fully automated decision-making that has a legal or otherwise significant effect using customer data.</p><p><br>Our processor Shopify uses limited automated decision-making to prevent fraud that does not have a legal or otherwise significant effect on you.</p><p><br>Services that include elements of automated decision-making include:</p><p><br>- Temporary blacklist of IP addresses associated with repeated failed transactions. This blacklist persists for a small number of hours.</p><p>- Temporary blacklist of credit cards associated with blacklisted IP addresses. This blacklist persists for a small number of days.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gFJ7M-RDDw"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gFJ7M-RDDw mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gXCxAVbNuj relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gVc-nJe_c4 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>6. selling personal information</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gdLDTDcn-r "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>Our Site sells Personal Information, as defined by the California Consumer Privacy Act of 2018 (“CCPA”).</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gUBr8w6oRL"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gUBr8w6oRL mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="ge3SuEstaJ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gQu8jui3t2 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>7. your rights</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gmbs3aljnO "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>GDPR</strong></p><p>If you are a resident of the EEA, you have the right to access the Personal Information we hold about you, to port it to a new service, and to ask that your Personal Information be corrected, updated, or erased. If you would like to exercise these rights, please contact us through the contact information above.</p><p><br>Your Personal Information will be initially processed in Ireland and then will be transferred outside of Europe for storage and further processing, including to Canada and the United States. For more information on how data transfers comply with the GDPR, see Shopify’s GDPR Whitepaper: <a href="https://help.shopify.com/en/manual/your-account/privacy/GDPR"><span style="color:#476DF2;">https://help.shopify.com/en/manual/your-account/privacy/GDPR</span></a><a href="https://help.shopify.com/en/manual/your-account/privacy/GDPR.">.</a></p><p>&nbsp;</p><p><strong>CCPA</strong></p><p>If you are a resident of California, you have the right to access the Personal Information we hold about you (also known as the ‘Right to Know’), to port it to a new service, and to ask that your Personal Information be corrected, updated, or erased. If you would like to exercise these rights, please contact us through the contact information above.</p><p><br>If you would like to designate an authorized agent to submit these requests on your behalf, please contact us at the address above.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gDE5g6Bon2"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gDE5g6Bon2 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gfYyOrNa2W relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gIj0ptgTBX "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>8. cookies</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gu3GBiqMH9 "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>A cookie is a small amount of information that’s downloaded to your computer or device when you visit our Site. We use a number of different cookies, including functional, performance, advertising, and social media or content cookies. Cookies make your browsing experience better by allowing the website to remember your actions and preferences (such as login and region selection). This means you don’t have to re-enter this information each time you return to the site or browse from one page to another. Cookies also provide information on how people use the website, for instance whether it’s their first time visiting or if they are a frequent visitor.</p><p><br>We use the following cookies to optimize your experience on our Site and to provide our services.</p><p><br>[Be sure to check this list against Shopify’s current list of cookies on the merchant storefront: <a href="https://www.shopify.com/legal/cookies"><span style="color:#476DF2;">https://www.shopify.com/legal/cookies</span></a> ]</p><p>&nbsp;</p><p><strong>Cookies Necessary for the Functioning of the Store</strong></p>
+        </div>
+      </div>
+    </div><div
+    
+    role="presentation"
+    class="group/image gSovQuehK0"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/86ef4528-a72b-4d23-8f8f-8e071a6d6f63/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-01.jpg" data-srcset="https://ucarecdn.com/86ef4528-a72b-4d23-8f8f-8e071a6d6f63/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-01.jpg 768w,https://ucarecdn.com/86ef4528-a72b-4d23-8f8f-8e071a6d6f63/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-01.jpg 1024w,https://ucarecdn.com/86ef4528-a72b-4d23-8f8f-8e071a6d6f63/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-01.jpg 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="1630" height="1433" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:1630/1433;--aspect-tablet:1630/1433;--aspect-mobile:1630/1433;--objf:cover;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gPUf-JH0ZY "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>Reporting and Analytics</strong></p>
+        </div>
+      </div>
+    </div><div
+    
+    role="presentation"
+    class="group/image g-dDr8Wn9m"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/b35fc211-3886-435f-9b8f-665fa5652bf0/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-02.jpg" data-srcset="https://ucarecdn.com/b35fc211-3886-435f-9b8f-665fa5652bf0/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-02.jpg 768w,https://ucarecdn.com/b35fc211-3886-435f-9b8f-665fa5652bf0/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-02.jpg 1024w,https://ucarecdn.com/b35fc211-3886-435f-9b8f-665fa5652bf0/-/format/auto/-/preview/3000x3000/-/quality/lighter/Cookies-02.jpg 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="1630" height="567" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:1630/567;--aspect-tablet:1630/567;--aspect-mobile:1630/567;--objf:cover;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gFwv9HfZrr "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p><strong>[INSERT OTHER COOKIES OR TRACKING TECHNOLOGIES THAT YOU USE]</strong></p><p><br>The length of time that a cookie remains on your computer or mobile device depends on whether it is a “persistent” or “session” cookie. Session cookies last until you stop browsing and persistent cookies last until they expire or are deleted. Most of the cookies we use are persistent and will expire between 30 minutes and two years from the date they are downloaded to your device.</p><p><br>You can control and manage cookies in various ways. Please keep in mind that removing or blocking cookies can negatively impact your user experience and parts of our website may no longer be fully accessible.</p><p><br>Most browsers automatically accept cookies, but you can choose whether or not to accept cookies through your browser controls, often found in your browser’s “Tools” or “Preferences” menu. For more information on how to modify your browser settings or how to block, manage or filter cookies can be found in your browser’s help file or through such sites as: www.allaboutcookies.org.</p><p><br>Additionally, please note that blocking cookies may not completely prevent how we share information with third parties such as our advertising partners. To exercise your rights or opt-out of certain uses of your information by these parties, please follow the instructions in the “Behavioural Advertising” section above.</p><p>&nbsp;</p><p><strong>Do Not Track</strong></p><p>Please note that because there is no consistent industry understanding of how to respond to “Do Not Track” signals, we do not alter our data collection and usage practices when we detect such a signal from your browser.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gPQkMsjSO3"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gPQkMsjSO3 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gPfrDCrVuZ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gQBE90QgAl "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>9. changes</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="ggz2yY6drv "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>We may update this Privacy Policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="g0IvDUMNsI"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g0IvDUMNsI mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gZxAXhT_qj relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gxAYv9JLZa "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-xl)"
+      >
+      <div class="flex" style="--jc:left">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:600;--ls:0.5px;--lh:130%;--size:23px;--size-tablet:23px;--size-mobile:20px;--c:#242424;--tt:capitalize;word-break:break-word;overflow:hidden"
+        >
+        <p>10. complaints</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gTIz-O_qVM "
+        style="--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Inter-Tight, 'Inter Tight');--weight:400;--ls:0.5px;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--c:#242424;word-break:break-word;overflow:hidden"
+        >
+        <p>As noted above, if you would like to make a complaint, please contact us by e-mail or by mail using the details provided under “Contact” above.</p><p><br>If you are not satisfied with our response to your complaint, you have the right to lodge your complaint with the relevant data protection authority. You can contact your local data protection authority, or our supervisory authority.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 2",
+    "tag": "section",
+    "class": "gps-504648914280907882 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/familidoo/apps/bold/app/shopify/edit?pageType=GP_STATIC&editorId=504648910422147975&sectionId=504648914280907882)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}
